@@ -2,6 +2,14 @@
 
 This file records documentation changes. It does not establish a downloadable software release.
 
+## Unreleased — editorial integration — November 11, 2026
+
+- Imported frozen README V2.4 and Behind PROJECT OT Narrative V1.0.
+- Applied limited narrative pronoun cleanup; retained chapters and historical findings.
+- Added concise Pick Up & Play guides and official Microsoft prerequisite links.
+- Presented validated Arcade Cabinet Mode alongside standard Local VS.
+- Kept meaningful known issues, credits and distribution obligations; media integration remains stopped.
+
 ## Unreleased — player experience audit — November 11, 2026
 
 - Updated controller claim confirmation and the LAN menu/Match Board workflow.

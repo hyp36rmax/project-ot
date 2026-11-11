@@ -1,144 +1,184 @@
 # PROJECT OT
 ### Virtual On Experience
 
-**Preserving Virtual-On: Oratorio Tangram M.S.B.S. Ver. 5.66 for modern PC hardware.**
+**The original Virtual-On: Oratorio Tangram M.S.B.S. Ver. 5.66 arcade experience, brought to modern Windows PCs.**
 
-## About PROJECT OT
+PROJECT OT preserves the original SEGA NAOMI gameplay while bringing modern controller support, expanded displays, linked multiplayer and an improved player experience to Windows.
 
-*Virtual-On: Oratorio Tangram* has always been one of those arcade games that deserves to be experienced properly.
+Built around the original arcade release, the goal is to make *Oratorio Tangram* more accessible without changing what made it special.
 
-The fast-paced combat, precise Twin-Stick controls, and competition between linked cabinets are what made the original arcade experience special. Everything worked together, from how the game played to how players interacted with the machines.
+## Features
 
-Over the years, SEGA brought *Oratorio Tangram* to different platforms, each offering another way to enjoy the game. But recreating the original NAOMI arcade experience on modern PC hardware still presents its own challenges.
+### Original Arcade Experience
 
-That's where PROJECT OT began.
+Experience authentic NAOMI 5.66 gameplay, preserving the original movement, weapons, combat mechanics and linked competition.
 
-Rather than rebuilding the game, changing its mechanics, or combining features from different releases, I wanted to preserve the original NAOMI 5.66 experience while improving everything around it.
+### Modern Gamepads & Arcade Twin-Sticks
 
-Modern controllers. Expanded displays. Local multiplayer. LAN play. A unified interface that makes the original game easier to access and enjoy.
+Play with modern dual analog gamepads or compatible arcade Twin-Stick hardware.
 
-The goal isn't to reinvent *Oratorio Tangram*.
+**Compatible Controllers**
 
-It's to make the original arcade experience feel at home on modern hardware.
+| Gamepads | Arcade Twin-Sticks |
+|---|---|
+| Xbox controllers | HORI Twin Stick EX |
+| PlayStation controllers via compatible XInput | Tanita Twin-Stick |
+| Other compatible dual analog XInput gamepads | Custom Brook / XInput Twin-Sticks |
+| | Dreamcast Twin-Sticks via Raphnet |
+| | Saturn Twin-Sticks via Raphnet |
 
-## The Experience
+Mix compatible controllers in Local VS. One player can use a gamepad while the other uses Twin-Sticks, or both can use their preferred setup.
 
-PROJECT OT brings the original NAOMI 5.66 game together with a purpose-built Windows experience.
+Controller assignment, button mapping, analog calibration and input testing are managed directly within PROJECT OT.
 
-Instead of managing emulator settings, multiple windows, controller assignments, and separate runtime configurations, players interact with one application.
+[Controller Setup](docs/controllers.md)
 
-Choose how to play, configure your controllers and displays, and enter the game.
+### Local VS: One PC, Two Players
 
-The underlying software remains the original arcade release, executed through a specialized Flycast-derived runtime.
+Bring the original linked cabinet competition to a single Windows PC.
 
-PROJECT OT manages the surrounding experience without replacing the game's original mechanics.
+**Single Display**
 
-### Ways to Play
+Both players share one monitor, with independent gameplay views and controllers.
 
-**SOLO**
+**Dual Display VS**
 
-Play the original arcade game through a modern interface, with supported controller, display, and audio settings.
+Each player receives a dedicated physical display, with independent controls, game views and supported display configurations.
 
-**LOCAL VS**
+Play together on one ultrawide monitor or recreate the original two cabinet experience with separate screens.
 
-Bring the original linked-cabinet experience to one PC. Two players, independent controls, and flexible display arrangements managed through a single application.
+[Local VS Guide](docs/local-vs.md)
 
-**LAN VS**
+### Arcade Cabinet Mode
 
-Connect compatible PROJECT OT stations across a local network. Discover available players, issue challenges, and enter linked matches through the Match Board.
+Bring the original twin-cabinet arcade experience to modern PC hardware.
 
-## Modern Controls
+Arcade Cabinet Mode supports two persistent NAOMI cabinet environments, each with its own gameplay presentation and independent player controls.
 
-The original Twin-Stick control system remains central to how *Oratorio Tangram* plays.
+Designed for dedicated arcade setups, it brings the authentic linked-cabinet experience together under PROJECT OT, extending beyond standard Local VS.
 
-PROJECT OT makes that experience accessible through modern dual-analog gamepads while retaining support for compatible arcade-style Twin-Stick hardware.
+### LAN VS: Local Network Multiplayer
 
-Controller discovery, player assignment, input mapping, calibration, and testing are brought together in one interface.
+Connect PROJECT OT stations across your local network.
 
-The intention is straightforward: connect your controller, configure it when necessary, and play without having to understand the underlying arcade input system.
+The Match Board lets players discover available stations, challenge opponents, accept matches and confirm readiness. Direct Connect provides an alternative when automatic discovery is unavailable.
 
-## Modern Displays
+**Wired Ethernet is recommended.** Wi-Fi is also supported, although station discovery can vary depending on Windows, wireless adapter capabilities and router settings.
 
-The original NAOMI release was designed around a 4:3 display.
+[LAN VS Guide](docs/lan-vs.md)
 
-PROJECT OT preserves that original presentation while introducing expanded rendering for modern widescreen and ultrawide monitors.
+### Modern Displays
 
-This goes beyond stretching the picture or cropping the original camera.
+Enjoy the original arcade presentation or expand the horizontal field of view with Hor+ rendering.
 
-Our Flycast Lean development involved investigating PowerVR rendering, projection, clipping, and the game's original visibility behavior to support a wider field of view without changing the underlying gameplay.
+| Aspect Ratio | Presentation |
+|---|---|
+| 4:3 | Original Arcade |
+| 16:9 | Widescreen |
+| 21:9 | Ultrawide |
+| 32:9 | Super Ultrawide |
 
-The Experience also manages single-display and supported dual-display configurations, allowing players to choose how the game is presented.
+Rendering quality includes Original 480p, Performance 720p, High 1080p, Ultra 1440p and 4K 2160p.
 
-Original 4:3 behavior remains the reference against which expanded presentation is evaluated.
+Our dedicated runtime introduces improvements to rendering, projection and object visibility, allowing the original game world to expand horizontally rather than stretching the original 4:3 picture.
 
-## Built Around the Original Game
+[Display Settings](docs/display.md)
 
-Preservation has guided the project from the beginning.
+### Unified Experience
 
-The original NAOMI 5.66 release remains our reference for gameplay, movement, weapons, timing, camera behavior, and linked competition.
+PROJECT OT brings the original NAOMI 5.66 arcade game to modern Windows PCs through our dedicated runtime and Experience framework.
 
-Improving the experience doesn't mean changing the game itself.
+Controller configuration, display settings, audio controls, Solo, Local VS and LAN VS are brought together in one application, preserving the original gameplay while improving how players experience it.
 
-Some challenges have required modifications to the runtime. Others have been addressed through the surrounding Windows application.
+## Getting Started
 
-Every change needs to respect that distinction.
+### Requirements
 
-When something doesn't behave like the original arcade release, we investigate it rather than automatically treating the difference as an improvement.
+A Windows x64 PC, compatible gamepad or Twin-Sticks, and your legally obtained *Virtual-On: Oratorio Tangram M.S.B.S. Ver. 5.66* game and required SEGA NAOMI firmware.
 
-## Development and Open-Source Foundations
+### Microsoft Prerequisites
 
-PROJECT OT builds upon years of emulator development, community research, and preservation work.
+| Software | Official Download |
+|---|---|
+| Microsoft .NET 10 Runtime x64 | [Microsoft .NET 10](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) |
+| Microsoft Visual C++ Redistributable x64 | [Microsoft VC++ Runtime](https://aka.ms/vc14/vc_redist.x64.exe) |
 
-The execution runtime is based on Flycast, with dedicated improvements developed for *Oratorio Tangram*.
+The final distribution package will confirm the exact prerequisites.
 
-Our Flycast Lean VOOT source, technical investigations, and corresponding open-source modifications are maintained separately:
+### Pick Up & Play
 
-**[Flycast Lean VOOT](https://github.com/hyp36rmax/flycast-lean-voot)**
+1. Download PROJECT OT from [GitHub Releases](https://github.com/hyp36rmax/project-ot/releases) when available.
+2. Extract or install the package following its instructions.
+3. Add your legally obtained game and required NAOMI files.
+4. Launch `ProjectOT.exe`.
+5. Connect your controller, choose your game mode and play.
 
-The PROJECT OT Experience provides the player-facing framework around that runtime, including controller management, display presentation, audio configuration, multiplayer coordination, and session management.
+[Pick Up & Play Guide](docs/getting-started.md)
 
-Keeping these responsibilities distinct helps preserve the original software while making the surrounding experience easier to maintain and improve.
+## Screenshots & Gameplay
 
-## Where the Project Stands
+Authentic gameplay, controller configuration, display settings, Title Menu and LAN Match Board screenshots will be featured here.
 
-PROJECT OT remains in active development and release qualification.
+All captures will use the actual PROJECT OT Experience, with 1920×1080 as the primary presentation and expanded aspect ratios where appropriate.
 
-Solo, Local VS, modern controller support, expanded rendering, and LAN multiplayer have progressed through implementation and physical testing.
+## Frequently Asked Questions
 
-The remaining work focuses on completing acceptance testing, refining the player experience, documenting known limitations, and preparing a responsible distribution.
+### What is PROJECT OT?
 
-Features and compatibility will be documented according to their actual validation status.
+An unofficial fan created Windows experience for the original SEGA NAOMI release of *Virtual-On: Oratorio Tangram M.S.B.S. Ver. 5.66*.
 
-Downloads and installation instructions will be published when the release package is ready.
+### Is PROJECT OT a remake?
 
-## A Fan-Created Project
+No. PROJECT OT runs the original NAOMI arcade software through our dedicated runtime while improving the surrounding player experience.
 
-PROJECT OT is an unofficial, fan-created preservation and modernization project.
+### Can I use arcade Twin-Sticks?
 
-*Virtual-On*, *Oratorio Tangram*, SEGA, and related trademarks and game assets belong to their respective owners.
+Yes. Compatible HORI, Tanita, Brook based and Raphnet connected Twin-Stick setups are supported.
 
-PROJECT OT is not affiliated with or endorsed by SEGA.
+### Can two players share one PC?
 
-No commercial game ROMs or proprietary NAOMI BIOS files are provided.
+Yes. Local VS supports two players using either a single display or two independent physical monitors.
+
+### Can I use different controllers for each player?
+
+Yes. Local VS allows compatible gamepads and Twin-Sticks to be mixed, with independent player assignments.
+
+### What is Arcade Cabinet Mode?
+
+Arcade Cabinet Mode provides two persistent NAOMI cabinet environments for dedicated arcade setups, with independent player controls and displays. Unlike standard Local VS, it is designed around the operation of two arcade cabinets within one PROJECT OT experience.
+
+### Does PROJECT OT support widescreen and ultrawide monitors?
+
+Yes. PROJECT OT supports original 4:3 presentation and expanded 16:9, 21:9 and 32:9 rendering in supported configurations.
+
+### Can I play over Wi-Fi?
+
+Yes. Both Ethernet and Wi-Fi are supported for LAN VS. Wired Ethernet is recommended for the most consistent experience.
+
+### Does PROJECT OT include the original game?
+
+No. Players must provide their own legally obtained game and required firmware.
+
+### Is PROJECT OT open source?
+
+PROJECT OT uses a dedicated runtime with applicable open-source licensing requirements. Source information, credits and licensing details are available through the project's separate documentation.
+
+## Behind PROJECT OT
+
+PROJECT OT began with a simple goal: preserve the original arcade experience while improving how we enjoy it on modern hardware.
+
+From modern Twin-Stick support and expanded displays to bringing linked NAOMI cabinets together, each improvement has been part of a larger effort to keep the original game accessible.
+
+[Read Our Story](docs/development-history.md)
+
+## Downloads & Support
+
+[Downloads & Releases](https://github.com/hyp36rmax/project-ot/releases) | [Pick Up & Play](docs/getting-started.md) | [Compatible Controllers](docs/controllers.md) | [Known Issues](docs/known-issues.md) | [Report a Problem](https://github.com/hyp36rmax/project-ot/issues) | [Credits](CREDITS.md)
+
+**PROJECT OT is being prepared for its first public release.**
 
 ---
 
+PROJECT OT is an unofficial fan project, not affiliated with or endorsed by SEGA. Original game content and trademarks belong to their respective owners. Commercial game ROMs and proprietary NAOMI BIOS files are not included.
+
 **Preserve the game. Improve the experience.**
-
-## Player guides and release information
-
-**Documentation foundation — November 11, 2026.** The current development baseline is `v0.5.0-dev`. No public download or qualified release candidate is offered here. The player guides explain supported workflows and identify specific configuration limits in [known issues](docs/known-issues.md).
-
-- [Getting started on Windows](docs/getting-started.md)
-- [Modern dual-analog gamepads and Twin-Sticks](docs/controllers.md)
-- [Displays, aspect ratios and rendering quality](docs/display.md)
-- [Audio output, volume and speaker tests](docs/audio.md)
-- [Solo](docs/solo.md), [Local VS on one PC](docs/local-vs.md) and [LAN VS between stations](docs/lan-vs.md)
-- [Troubleshooting](docs/troubleshooting.md) and [known issues](docs/known-issues.md)
-- [First-session walkthrough and all player guides](docs/README.md#first-session)
-
-## Releases and project history
-
-Installation and download instructions remain pending until an approved distribution package exists. The [release guide](docs/release-guide.md) records what must accompany that package; it contains no speculative download links. [Changelog](CHANGELOG.md) tracks this documentation foundation separately from software releases.
-
-The [development history](docs/development-history.md) is a draft structure awaiting the approved narrative. [Credits](CREDITS.md) recognize the original game and open-source foundations. [Legal and distribution notes](LEGAL.md) describe ownership, user-supplied game data and the remaining release review.

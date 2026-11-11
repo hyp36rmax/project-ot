@@ -1,26 +1,22 @@
 # Solo gameplay
 
-Solo runs the original *Virtual-On: Oratorio Tangram M.S.B.S. Ver. 5.66* arcade game for one player. See [Getting Started](getting-started.md) for package availability and setup.
+Solo runs the original *Virtual-On: Oratorio Tangram M.S.B.S. Ver. 5.66* arcade game for one player.
 
-## Enter Solo
+## Start playing
 
-1. From Title, open **Settings → Controllers** and confirm Player 1. A supported controller or the documented P1 keyboard fallback can be used.
-2. Review the enabled [display](display.md) and [audio](audio.md) settings.
-3. Return to Title and select **Solo**.
-4. Once the game is active, use a short arcade **Start** input to enter the original game's flow. Keyboard Enter supplies that Start contact in the keyboard layout.
+1. At Title, open **Settings → Controllers** and [claim and test Player 1](controllers.md). A compatible controller or P1 keyboard fallback can be used.
+2. Review [Display](display.md) and [Audio](audio.md).
+3. Return to Title and choose **Solo**.
+4. Once the game is active, use a short **Start** press to enter the arcade game's flow. Keyboard Enter supplies the arcade Start input.
 
-An original game prompt is part of the arcade software. Do not treat a menu acknowledgement or a loading screen as proof that gameplay has started.
+Keep the short arcade Start input separate from the controller's longer menu gesture. Follow the game's own prompts as you play.
 
-## Manage the session
+## Open the menu or leave
 
-Use the Experience menu when you need to resume, reassign controls or return to Title. Keyboard **ESC** opens that menu in the current native workflow. A short Start input and the controller's longer menu gesture have different jobs; follow the on-screen controller guidance.
+Keyboard **ESC** opens the Experience menu. Use **Resume** to return to the same session, **Controllers** to adjust assignment, or **Return to Title** to finish. Release held inputs before resuming.
 
-The menu provides **Resume**, **Controllers** and **Return to Title**. Follow the displayed session status to see whether the game is paused or continues behind the menu. Current pause-presentation changes still need final physical checks; see [known issues](known-issues.md).
+Read the displayed status to see whether gameplay is paused or continues behind the menu. Opening a menu alone is not a pause guarantee.
 
-Controller reassignment uses the same [Controllers](controllers.md) page. Release controls before resuming so held menu inputs do not carry into the game.
+Return to Title asks for confirmation, with **Stay** selected first. Stay keeps the session; confirming Return to Title ends it. At Title, choose **Exit** and confirm to close PROJECT OT.
 
-## Leave Solo
-
-Choose **Return to Title** and confirm when you intend to end the session. The confirmation initially offers **Stay** so backing out preserves the game. Resume returns to the existing session; Return to Title ends it. Then choose **Exit** from Title and confirm to close PROJECT OT normally.
-
-If return or exit does not finish, preserve the message and report it rather than starting another copy over an unfinished session. See [troubleshooting](troubleshooting.md) and [known issues](known-issues.md).
+If startup or shutdown stalls, keep the visible message and use [Troubleshooting](troubleshooting.md) before launching another copy.

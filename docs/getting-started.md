@@ -1,37 +1,21 @@
-# Playing Virtual-On: Oratorio Tangram 5.66 on Windows
+# Getting started with PROJECT OT on Windows
 
-PROJECT OT: Virtual On Experience brings the original SEGA NAOMI arcade game together with controller, display, audio and multiplayer controls in one Windows application. Flycast Lean VOOT executes the original software; players use PROJECT OT to set up and manage the experience.
+PROJECT OT brings the original SEGA NAOMI *Virtual-On: Oratorio Tangram M.S.B.S. Ver. 5.66* experience to a Windows x64 PC. Use a compatible gamepad or arcade Twin-Sticks. Minimum CPU, GPU, memory and storage requirements have not been published.
 
-## Availability and Windows environment
+## Microsoft prerequisites
 
-**Installation instructions: pending the final distribution package.** The current baseline is `v0.5.0-dev`; no downloadable RC is offered here.
+The current package requires [Microsoft .NET 10 Runtime x64](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) and [Visual C++ Redistributable x64](https://aka.ms/vc14/vc_redist.x64.exe). Choose **.NET Runtime → Windows → x64**; the current native application does not require the .NET Desktop Runtime or SDK. The checked Visual C++ baseline is v14 14.51.36247.0 or later. Follow the final package's prerequisite list if it changes.
 
-Development and qualification records cover Windows x64 with DX11 rendering. They do not establish a minimum Windows edition/build, CPU, GPU, memory or free-storage requirement for a public release. macOS, Linux and SteamOS parity is not established by these Windows guides.
+## Download, set up and play
 
-Prerequisites depend on the package. Framework-dependent development packages were checked with Microsoft .NET 10 Runtime x64 and Microsoft Visual C++ v14 x64 Redistributable 14.51.36247.0 or later; other retained candidates include their .NET runtime. Follow the final package's verified prerequisite list rather than combining instructions from different builds.
+The first public package is still being prepared. When available:
 
-## Game and firmware requirements
+1. Download the approved package from [GitHub Releases](https://github.com/hyp36rmax/project-ot/releases) and follow its extraction instructions.
+2. Add your authorized game and NAOMI firmware files in the location specified by that package. Current preparation uses `vonot.zip` and `naomi.zip`, with `jvs13551.zip` and `mie.zip` where required. Use the documented revisions and checksums.
+3. Launch `ProjectOT.exe`.
+4. Open **Settings** to [claim and test your controller](controllers.md), choose [Display](display.md) and review [Audio](audio.md).
+5. Choose [Solo](solo.md), **Multiplayer → Local VS**, or **Multiplayer → Link Play → LAN VS**.
 
-The target game is *Virtual-On: Oratorio Tangram M.S.B.S. Ver. 5.66* for SEGA NAOMI. You must supply the game and required firmware through an authorized source. Current preparation instructions identify `vonot.zip` and `naomi.zip`, with `jvs13551.zip` and `mie.zip` where required by the installation. The final package must identify the exact archive revisions, checksums and placement.
+Use the mode guide to end the session, then return to Title and confirm **Exit**. Keep previous installations and saves separate until upgrade instructions are available.
 
-No game or BIOS files are provided here. Do not rename a different game revision to match a filename, post archives in issues, or copy an entire private development installation as a substitute for an approved release. See [legal notes](../LEGAL.md).
-
-## Initial launch — workflow draft
-
-Once an approved package and installation guide are available:
-
-1. Follow that version's extraction, prerequisite and game-data instructions. Keep the whole package together in its documented writable location.
-2. Open `ProjectOT.exe` and check the version shown by the application.
-3. Open **Settings** from the Title menu. Configure [Controllers](controllers.md), [Display](display.md) and [Audio](audio.md) using the options enabled in that build.
-4. Choose **Solo**, **Multiplayer → Local VS**, or **Multiplayer → Link Play → LAN VS**.
-5. Follow the mode guide to end the session, return through the menus to Title, then choose **Exit** and confirm. LAN sessions return to the Match Board first. Keep earlier installations and saves separate until upgrade/migration instructions are published.
-
-If data or runtime validation fails, read the displayed message and follow [troubleshooting](troubleshooting.md). A successful application launch does not by itself qualify gameplay or LAN connectivity.
-
-## Choose how to play
-
-- [Solo](solo.md): one player, with a supported controller or the documented P1 keyboard fallback.
-- [Local VS](local-vs.md): two players on one PC; each needs independent input ownership, with a physical P2 controller.
-- [LAN VS](lan-vs.md): compatible PROJECT OT stations on a local network. Final Match Board acceptance remains pending.
-
-See [known issues](known-issues.md) for specific display and audio limits. [Release information](release-guide.md) will identify the supported configurations for each package.
+No game or firmware downloads are supplied. For startup errors, see [Troubleshooting](troubleshooting.md); final installation paths and migration steps remain package-dependent.

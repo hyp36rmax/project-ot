@@ -1,46 +1,21 @@
-# Displays, aspect ratios and rendering quality
+# Display settings and Hor+ widescreen
 
-Open **Settings → Display** from the Title menu to choose the session, display arrangement, monitors and rendering quality before playing.
+Open **Settings → Display** at Title. Choose the session, arrangement, monitors, aspect ratio and rendering quality before starting play.
 
-## Original 4:3 and Hor+ widescreen rendering
+## Aspect ratio and quality
 
-Original **4:3** is the reference presentation. **16:9** is the primary modern presentation, with expanded **21:9-class** and **32:9** rendering in supported configurations.
+Use original **4:3**, primary modern **16:9**, or supported **21:9** and **32:9** presentation. Hor+ preserves the original vertical framing while showing more world horizontally, rather than stretching the picture.
 
-Hor+ widescreen rendering preserves the original vertical framing while showing more world horizontally. It does not stretch the 4:3 picture. See the [Flycast Lean VOOT rendering documentation](https://github.com/hyp36rmax/flycast-lean-voot) for the runtime's projection and visibility work.
-
-Support does not mean every stage, aspect, quality and monitor combination has been tested. Check [known issues](known-issues.md) for configuration-specific limits. Vertical expansion is not a supported display mode.
-
-## Rendering Quality
-
-Rendering Quality settings use internal render heights of **480, 720, 1080, 1440 and 2160** pixels; **High** uses 1080p. Internal resolution is separate from the monitor's desktop resolution and the arrangement preview.
-
-Higher quality increases graphics work. Choose a setting that runs consistently on your PC; performance at 1440p or 2160p is not guaranteed. Return to Title and start a new session when a quality change requires it.
+Rendering Quality offers **Original 480p**, **Performance 720p**, **High 1080p**, **Ultra 1440p** and **4K 2160p**. High is the default. Internal rendering quality is separate from Windows desktop resolution; choose a setting that runs consistently on your PC.
 
 ## Single Display and Dual Display VS
 
-| Arrangement | Player presentation |
-| --- | --- |
-| Single Display | The default for Solo and Local VS. Solo uses one view; Local VS places both player views on one monitor. |
-| Dual Display VS | Local VS with independent player views on separate physical displays. |
+**Single Display** is the default for Solo and Local VS. Local VS gives both players independent views on one monitor. The established 32:9 layout is side-by-side; check [Known Issues](known-issues.md#display) for newer stacked layouts.
 
-The established 32:9 Single Display Local VS layout uses fitted side-by-side views. Newer stacked Hor+ arrangements for 4:3, 16:9 and 21:9 still need active-match acceptance in the final package; use the layout supported by your build.
+**Dual Display VS** gives each Local VS player a separate physical monitor. Assign both displays, use **Identify** to locate them and **Swap Screens** where offered to exchange player placement. Windows display duplication does not provide independent player views.
 
-## Monitor selection and placement
+## Save and recover
 
-Select the intended monitor for Single Display. For Dual Display VS, assign a separate physical display to each player and check the arrangement preview. Use **Identify** when enabled to locate a monitor, and **Swap Screens** where offered to exchange player placement. Windows display duplication does not provide two independent player views.
+Solo and Local VS keep separate preferences. Edits save automatically; changes needing confirmation show **Keep/Revert** for 15 seconds. Keep saves the plan; Revert or timeout restores the previous plan. Start a new session to use saved launch changes—confirmation does not move a running game.
 
-Monitor layout, Windows scaling and reconnect behavior can vary. Confirm both views are visible and assigned correctly before starting a match.
-
-## HUD and gameplay framing
-
-The original game's HUD remains the reference. Check text, gauges and both players' views in actual gameplay after changing aspect or quality. An arrangement preview does not establish correct HUD placement in every scene; report cropping or a missing effect with the selected aspect, quality and affected player.
-
-## Saved settings, Keep and Revert
-
-Solo and Local VS store their own display preferences. Supported edits save automatically; there is no separate Apply step on the reviewed page. Changes that need confirmation show **Keep/Revert** with a 15-second deadline. Keep saves the proposed configuration; Revert or timeout restores the previous plan.
-
-This confirmation concerns the settings plan, not a guarantee that a running game's windows or resolution have changed. Return to Title and start a new session to use the saved launch configuration. If a saved monitor is unavailable, inspect the fallback arrangement and reassign displays before playing.
-
-Return to Title before changing cabling, Windows display topology or settings that require a new session. If a monitor is lost or a change cannot be recovered, close normally and retain the displayed error for [troubleshooting](troubleshooting.md). Do not delete preferences as an undocumented reset.
-
-Related: [Local VS](local-vs.md), [known issues](known-issues.md), [release guide](release-guide.md).
+Check the fallback arrangement if a saved monitor is missing. Return to Title before changing cables or desktop topology. If recovery fails, retain the message and use [Troubleshooting](troubleshooting.md); do not delete all preferences.

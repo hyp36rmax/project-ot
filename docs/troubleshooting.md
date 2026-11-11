@@ -22,7 +22,7 @@ At Title, confirm the session, monitor assignment, aspect and quality. Check the
 
 ## Audio or speaker tests are silent
 
-Check application volume/mute and the Windows output actually used by the build. A selected test endpoint is not proof that live game audio uses it. Report a speaker-test failure separately from game sound, and identify the selected output type without publishing private device identifiers. See [Audio](audio.md).
+Check application volume/mute and the Windows output used by the build, then review the [Audio guide](audio.md) for its current routing limit. Report speaker-test failure separately from gameplay silence and identify the output type without publishing private device identifiers.
 
 ## LAN stations cannot connect
 
@@ -37,6 +37,10 @@ Use matching packages and game/firmware data, then check discovery separately fr
 7. If wireless behavior is inconsistent, try wired Ethernet on both PCs. Ethernet is the recommended connection; wireless LAN is also supported.
 
 An empty board does not by itself prove a firewall or wireless fault. Retain the visible message for missing data, incompatible packages or other preparation failures. A successful connection is not proof of a completed linked match.
+
+## A session will not end or another copy is running
+
+Let the session-ending action finish before starting another mode. If cleanup fails, retain the visible message rather than repeatedly launching more copies. Save work in any other PROJECT OT copy before confirming Title Exit; see [known issues](known-issues.md) for the current cross-copy exit behavior.
 
 ## Reporting a problem
 

@@ -31,9 +31,15 @@ Select the intended monitor for Single Display. For Dual Display VS, assign a se
 
 Monitor layout, Windows scaling and reconnect behavior can vary. Confirm both views are visible and assigned correctly before starting a match.
 
-## Safe display-setting recovery
+## HUD and gameplay framing
 
-Live geometry previews provide **Keep/Revert** with a 15-second confirmation deadline. Choose Keep only when the image and assignments are correct. Otherwise choose Revert or let the preview time out.
+The original game's HUD remains the reference. Check text, gauges and both players' views in actual gameplay after changing aspect or quality. An arrangement preview does not establish correct HUD placement in every scene; report cropping or a missing effect with the selected aspect, quality and affected player.
+
+## Saved settings, Keep and Revert
+
+Solo and Local VS store their own display preferences. Supported edits save automatically; there is no separate Apply step on the reviewed page. Changes that need confirmation show **Keep/Revert** with a 15-second deadline. Keep saves the proposed configuration; Revert or timeout restores the previous plan.
+
+This confirmation concerns the settings plan, not a guarantee that a running game's windows or resolution have changed. Return to Title and start a new session to use the saved launch configuration. If a saved monitor is unavailable, inspect the fallback arrangement and reassign displays before playing.
 
 Return to Title before changing cabling, Windows display topology or settings that require a new session. If a monitor is lost or a change cannot be recovered, close normally and retain the displayed error for [troubleshooting](troubleshooting.md). Do not delete preferences as an undocumented reset.
 

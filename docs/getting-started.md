@@ -8,11 +8,11 @@ PROJECT OT: Virtual On Experience brings the original SEGA NAOMI arcade game tog
 
 Development and qualification records cover Windows x64 with DX11 rendering. They do not establish a minimum Windows edition/build, CPU, GPU, memory or free-storage requirement for a public release. macOS, Linux and SteamOS parity is not established by these Windows guides.
 
-The current framework-dependent development packaging was checked with Microsoft .NET 10 Runtime x64 and Microsoft Visual C++ v14 x64 Redistributable 14.51.36247.0 or later. The final package must publish its own verified prerequisite list before installation instructions become actionable. Do not infer different package requirements from this development record.
+Prerequisites depend on the package. Framework-dependent development packages were checked with Microsoft .NET 10 Runtime x64 and Microsoft Visual C++ v14 x64 Redistributable 14.51.36247.0 or later; other retained candidates include their .NET runtime. Follow the final package's verified prerequisite list rather than combining instructions from different builds.
 
 ## Game and firmware requirements
 
-The target game is *Virtual-On: Oratorio Tangram M.S.B.S. Ver. 5.66* for SEGA NAOMI. You must supply the game and required firmware through an authorized source. The current private preparation records refer to `vonot.zip`, `naomi.zip`, `jvs13551.zip` and `mie.zip`; the exact required archive revisions and checksums must be confirmed for the final package.
+The target game is *Virtual-On: Oratorio Tangram M.S.B.S. Ver. 5.66* for SEGA NAOMI. You must supply the game and required firmware through an authorized source. Current preparation instructions identify `vonot.zip` and `naomi.zip`, with `jvs13551.zip` and `mie.zip` where required by the installation. The final package must identify the exact archive revisions, checksums and placement.
 
 No game or BIOS files are provided here. Do not rename a different game revision to match a filename, post archives in issues, or copy an entire private development installation as a substitute for an approved release. See [legal notes](../LEGAL.md).
 
@@ -23,8 +23,8 @@ Once an approved package and installation guide are available:
 1. Follow that version's extraction, prerequisite and game-data instructions. Keep the whole package together in its documented writable location.
 2. Open `ProjectOT.exe` and check the version shown by the application.
 3. Open **Settings** from the Title menu. Configure [Controllers](controllers.md), [Display](display.md) and [Audio](audio.md) using the options enabled in that build.
-4. Choose **Solo**, or open **Multiplayer** for **Local VS** or **LAN VS**.
-5. When finished, use **Return to Title**, then **Exit**. Keep earlier installations and saves separate until upgrade/migration instructions are published.
+4. Choose **Solo**, **Multiplayer → Local VS**, or **Multiplayer → Link Play → LAN VS**.
+5. Follow the mode guide to end the session, return through the menus to Title, then choose **Exit** and confirm. LAN sessions return to the Match Board first. Keep earlier installations and saves separate until upgrade/migration instructions are published.
 
 If data or runtime validation fails, read the displayed message and follow [troubleshooting](troubleshooting.md). A successful application launch does not by itself qualify gameplay or LAN connectivity.
 

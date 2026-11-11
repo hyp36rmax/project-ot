@@ -1,3 +1,7 @@
+<!-- POT-MEDIA03:branding -->
+<p><img src="assets/branding/project-ot-logo.png" alt="PROJECT OT — VO Experience logo" width="420"></p>
+<!-- /POT-MEDIA03:branding -->
+
 # PROJECT OT
 ### Virtual On Experience
 

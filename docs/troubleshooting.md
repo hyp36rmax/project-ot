@@ -26,7 +26,17 @@ Check application volume/mute and the Windows output actually used by the build.
 
 ## LAN stations cannot connect
 
-Use matching packages/data, a reachable local-network interface and the intended host address. Distinguish missing data, occupied ports, explicit socket denial and an empty station list. Review the exact installation's Windows permissions; do not disable firewall protection or automatically reuse old-path exceptions. Direct Connect still needs compatible peers and permitted traffic. See [LAN VS](lan-vs.md).
+Use matching packages and game/firmware data, then check discovery separately from the connection and match itself:
+
+1. Confirm both stations are connected to the intended local network.
+2. Check the active Windows network adapter, especially if the PC has both Ethernet and Wi-Fi or a VPN.
+3. Confirm the network allows connected devices to communicate with each other. Guest networks may restrict this even when both PCs can access the internet.
+4. If using wireless, check whether the router isolates wireless clients. A setting may be called **client isolation** or **AP isolation**; names and availability vary. Ask the network owner if you cannot review it yourself.
+5. Confirm Windows firewall permissions for the application in its current installation folder. An exception for an older copy may not apply. Keep Windows security protections enabled.
+6. Use **Direct Connect** where available if the other station is not discovered automatically. Check the host's local address and follow the [LAN VS steps](lan-vs.md#direct-connect-fallback).
+7. If wireless behavior is inconsistent, try wired Ethernet on both PCs. Ethernet is the recommended connection; wireless LAN is also supported.
+
+An empty board does not by itself prove a firewall or wireless fault. Retain the visible message for missing data, incompatible packages or other preparation failures. A successful connection is not proof of a completed linked match.
 
 ## Reporting a problem
 

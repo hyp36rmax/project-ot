@@ -2,6 +2,13 @@
 
 This file records documentation changes. It does not establish a downloadable software release.
 
+## Unreleased — player-guide corrections — November 11, 2026
+
+- Removed the retired display option from current player guides.
+- Added the approved Ethernet recommendation, wireless LAN support and discovery guidance.
+- Added practical LAN troubleshooting and shortened repeated development-stage disclaimers.
+- Preserved the complete approved introduction and specific unresolved feature limits.
+
 ## Unreleased — documentation foundation V1.0 — November 11, 2026
 
 - Imported the complete approved PROJECT OT introduction.

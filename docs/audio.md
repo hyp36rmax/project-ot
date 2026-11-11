@@ -1,12 +1,12 @@
 # Audio output, volume and speaker tests
 
-Open **Settings → Audio** to review the options available for the selected session. The retained development Audio page includes saved endpoint choices and speaker-test controls. Its status message explicitly distinguishes configuration/tests from live game-audio routing, which is not connected through that page's endpoint-routing controls.
+Open **Settings → Audio** to choose outputs and run speaker tests for the selected session. These endpoint controls currently configure preferences and tests; they do not route live game audio. Existing gameplay audio continues through the build's established output path.
 
 ## System Default, Volume and Mute
 
 **System Default** follows the available Windows default render output for configuration and tests. A named output selects that endpoint for the supported test path. If a saved output disappears, the page reports the default fallback rather than treating the missing device as available.
 
-**Volume** and **Mute** are session preferences; player-specific configuration is shown for the Separate layout. Existing gameplay volume/mute handling is retained in the development builds, but an Audio-page slider or saved endpoint does not by itself prove that the current game's output has changed. Read the page's status message and the build's release notes. Final end-to-end application of the current settings still needs acceptance.
+**Volume** and **Mute** are session preferences; player-specific configuration is shown for the Separate layout. Gameplay volume/mute handling is retained, but applying the current Audio-page settings to live gameplay still needs end-to-end acceptance. Check the page's status and release notes rather than assuming a saved choice changed the game output.
 
 The application does not use these settings to change the Windows system master volume. Begin at a comfortable listening level before running a test.
 

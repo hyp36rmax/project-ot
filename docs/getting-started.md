@@ -34,4 +34,4 @@ If data or runtime validation fails, read the displayed message and follow [trou
 - [Local VS](local-vs.md): two players on one PC; each needs independent input ownership, with a physical P2 controller.
 - [LAN VS](lan-vs.md): compatible PROJECT OT stations on a local network. Final Match Board acceptance remains pending.
 
-Read [known issues](known-issues.md) before relying on experimental display arrangements or audio routing. [Release information](release-guide.md) will identify what the offered build actually supports.
+See [known issues](known-issues.md) for specific display and audio limits. [Release information](release-guide.md) will identify the supported configurations for each package.

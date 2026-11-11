@@ -1,6 +1,6 @@
 # PROJECT OT: Virtual On Experience player guides
 
-These guides describe the Windows development baseline and the intended player workflow. There is no public installation package yet. An implemented setting, a preview and a physically qualified configuration are different things; each guide identifies its limits.
+These guides cover Windows setup, controls, displays, audio and the three play modes. There is no public installation package yet. Specific unfinished features and configuration limits are listed in [known issues](known-issues.md).
 
 ## Choose a guide
 
@@ -14,7 +14,7 @@ These guides describe the Windows development baseline and the intended player w
 | [Local VS](local-vs.md) | Two players on one PC with independent controls |
 | [LAN VS](lan-vs.md) | Compatible stations, Match Board flow and Direct Connect |
 | [Troubleshooting](troubleshooting.md) | Safe checks and useful issue reports |
-| [Known issues](known-issues.md) | Current qualification limits |
+| [Known issues](known-issues.md) | Current support limits |
 | [Development history](development-history.md) | Approved narrative import status |
 | [Release guide](release-guide.md) | What must be verified before downloads and installation |
 

@@ -1,6 +1,6 @@
 # Configuring modern gamepads and Twin-Sticks
 
-Open **Settings → Controllers** to choose Player 1 or Player 2, identify the connected device and test its inputs. A detected name or selectable profile is not proof that every hardware revision has completed physical qualification.
+Open **Settings → Controllers** to choose Player 1 or Player 2, identify the connected device and test its inputs. Use the profile table below to check coverage for your device and connection.
 
 ## Modern dual-analog gamepads and arcade controls
 
@@ -24,7 +24,7 @@ This is a profile inventory, not a universal compatibility certification. The [r
 
 ## Claiming and assigning players
 
-Release the controls to neutral before claiming. The retained controller workflow uses a **750 ms Hold Start** gesture; releasing early cancels the claim. On the Controllers page, select the intended player before following the claim prompt. A device already owned by the other player cannot be assigned again.
+Release the controls to neutral before claiming. Use the **750 ms Hold Start** gesture; releasing early cancels the claim. On the Controllers page, select the intended player before following the claim prompt. A device already owned by the other player cannot be assigned again.
 
 Use the read-only detected-device information and Test Controls to confirm ownership. After reconnecting an ambiguous XInput device, make a fresh claim rather than relying on a remembered connection slot. Do not assume that two identical display names identify the same physical controller.
 
@@ -42,8 +42,8 @@ For supported gamepads, calibrate one stick at a time: release it at center, the
 
 Where an assignment page offers **Save** and **Cancel**, Save applies the pending selection and Cancel leaves that selection uncommitted. Accepted binding edits in the V1.3 workflow can save immediately; Cancel cancels the active capture/conflict operation and is not a promise to undo all earlier edits. Follow the on-screen confirmation for the build you are testing.
 
-**Restore Defaults** affects the current control type and offers **Undo** in the retained mapping workflow. It is not a global reset of both players or all configuration. Recheck Test Controls afterward.
+**Restore Defaults** affects the current control type and offers **Undo** in the mapping workflow. It is not a global reset of both players or all configuration. Recheck Test Controls afterward.
 
-Final physical acceptance of the current Settings page and all supported devices remains open. Report problems through the controller issue form with the model, adapter/connection, selected profile, affected player and the smallest reproducible input sequence. Do not attach full private configuration folders.
+For hardware combinations not covered by the profile table, check the release notes and Test Controls before playing. Report problems through the controller issue form with the model, adapter/connection, selected profile, affected player and the smallest reproducible input sequence. Do not attach full private configuration folders.
 
 Related: [Solo](solo.md), [Local VS](local-vs.md), [LAN VS](lan-vs.md), [known issues](known-issues.md).

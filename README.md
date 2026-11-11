@@ -127,7 +127,7 @@ No commercial game ROMs or proprietary NAOMI BIOS files are provided.
 
 ## Player guides and release information
 
-**Documentation foundation — November 11, 2026.** The current development baseline is `v0.5.0-dev`. No public download or qualified release candidate is offered here. These guides distinguish implemented development features from hardware, presentation and interface behavior still awaiting release acceptance.
+**Documentation foundation — November 11, 2026.** The current development baseline is `v0.5.0-dev`. No public download or qualified release candidate is offered here. The player guides explain supported workflows and identify specific configuration limits in [known issues](docs/known-issues.md).
 
 - [Getting started on Windows](docs/getting-started.md)
 - [Modern dual-analog gamepads and Twin-Sticks](docs/controllers.md)

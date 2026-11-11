@@ -40,7 +40,7 @@ Direct Connect still requires compatible packages/data and a network that permit
 
 ## During and after a match
 
-Linked gameplay can continue while the Experience menu is open; follow **Gameplay Continues**. Use the session-ending action and its confirmation to stop the match. Depending on the session menu, it is labeled **Return to Title** or **End Session**. In the current Match Board workflow, completed session cleanup returns you to the board and releases the pairing so another match can be arranged.
+Linked gameplay can continue while the Experience menu is open; follow **Gameplay Continues**. Choose **Return to Title** and confirm to stop the match. In the current Match Board workflow, completed session cleanup returns you to the board and releases the pairing so another match can be arranged.
 
 Use **Back** to leave the Match Board for the menus, then **Exit** from Title and confirm to close the application. Wait for cleanup rather than starting another copy over a session that has not finished.
 

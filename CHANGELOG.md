@@ -2,6 +2,13 @@
 
 This file records documentation changes. It does not establish a downloadable software release.
 
+## Unreleased — player experience audit — November 11, 2026
+
+- Updated controller claim confirmation and the LAN menu/Match Board workflow.
+- Clarified saved display plans, audio preferences and session-ending behavior.
+- Added a first-session path and consolidated repeated audio limitations.
+- Kept package-specific acceptance and the approved history import open.
+
 ## Unreleased — player-guide corrections — November 11, 2026
 
 - Removed the retired display option from current player guides.

@@ -18,27 +18,31 @@ For the most consistent multiplayer experience, we recommend connecting both PCs
 
 ## Match Board
 
-Open **Multiplayer → LAN VS**. The Match Board lists stations found through automatic discovery. **Join** makes your station available to other players.
+Open **Multiplayer → Link Play → LAN VS**. Discovery starts when you enter LAN VS; opening Title or Network Settings alone does not make the station discoverable. The Match Board lists stations found on the local network. Select **Join** to make your station available for invitations.
 
-Choose an available station, issue a challenge, have the other player accept, and confirm readiness on both sides. Follow the displayed **Challenge**, **Accept** and **Ready** states and any compatibility messages before starting play.
+Click a station once to highlight it, then double-click to challenge. Keyboard arrows and Enter, or controller navigation and Confirm, perform the same selection. Selecting an available opponent also joins the board if needed. Busy or incompatible entries cannot be challenged, and expired entries disappear.
 
-The current Match Board's complete cross-PC workflow still needs final release acceptance. Existing LAN transport and discovery checks do not establish that every current interface step or network configuration has passed a complete linked match.
+Challenge an available station, have the other player choose **Accept**, then choose **Ready** on both PCs. Follow the displayed **Challenge**, **Accept** and **Ready** states and any compatibility messages before starting play.
+
+The interface steps are implemented. Final complete-match acceptance for the latest package and simultaneous Ethernet/Wi-Fi setups remains open; automatic discovery is not guaranteed on every network.
 
 ## Player and station identity
 
-**Network Settings** contains Player Name and Station Name. The approved access points are LAN VS → Network Settings and Title → Settings → Network, sharing the same values; final integration of both entry points remains to be confirmed in the release package.
+**Network Settings** contains Player Name and Station Name. Open it from the Match Board or **Title → Settings → Network**; both edit the same saved values. Station identity persists between launches. Final physical checks of the integrated package remain open.
 
 Choose a display name that does not reveal personal information. A station name helps identify the other PC; it does not establish package or game-data compatibility.
 
 ## Direct Connect fallback
 
-When automatic discovery does not find the other station, use **Direct Connect** where available. One PC selects **Host**. On the other, enter the host's local address, save it and select **Join**, following the on-screen prompts.
+When automatic discovery does not find the other station, use **Direct Connect** where available. One PC selects **Host** and leaves that waiting screen open. On the other, choose **IP**, enter the host's local address and select **Save**, then **Join**. The host must still **Accept**, and both players choose **Ready**.
 
 Direct Connect still requires compatible packages/data and a network that permits the PCs to communicate. It does not bypass Windows permissions or guarantee a completed match.
 
 ## During and after a match
 
-Linked gameplay can continue while the Experience menu is open; follow **Gameplay Continues**. Use **Return to Title** to end the session, then reopen LAN VS to return to the Match Board.
+Linked gameplay can continue while the Experience menu is open; follow **Gameplay Continues**. Use the session-ending action and its confirmation to stop the match. Depending on the session menu, it is labeled **Return to Title** or **End Session**. In the current Match Board workflow, completed session cleanup returns you to the board and releases the pairing so another match can be arranged.
+
+Use **Back** to leave the Match Board for the menus, then **Exit** from Title and confirm to close the application. Wait for cleanup rather than starting another copy over a session that has not finished.
 
 A discovered station or successful connection is separate from completed linked gameplay. Both players should reach the same match, retain independent local control and be able to finish and leave cleanly.
 

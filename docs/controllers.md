@@ -4,7 +4,7 @@ Open **Settings → Controllers** to choose Player 1 or Player 2, identify the c
 
 ## Modern dual-analog gamepads and arcade controls
 
-The Gamepad control type uses a common dual-analog layout for the supported Xbox and PlayStation families. The two sticks represent the original left and right Twin-Stick lever contacts; weapon and dash contacts remain independently available on each side. The original game interprets combined inputs. Controller support does not add new movement, weapon or timing rules.
+Choose **Gamepad** for supported Xbox and compatible PlayStation dual-analog controllers. They share one control type; there are no separate manufacturer-specific Gamepad choices. The two sticks represent the original left and right Twin-Stick lever contacts; weapon and dash contacts remain independently available on each side. The original game interprets combined inputs. Controller support does not add new movement, weapon or timing rules.
 
 Support depends on the actual device and connection, not simply the presence of two sticks. Check both lever directions, both weapon inputs, dash inputs, Start and simultaneous actions in **Test Controls** before playing.
 
@@ -24,7 +24,13 @@ This is a profile inventory, not a universal compatibility certification. The [r
 
 ## Claiming and assigning players
 
-Release the controls to neutral before claiming. Use the **750 ms Hold Start** gesture; releasing early cancels the claim. On the Controllers page, select the intended player before following the claim prompt. A device already owned by the other player cannot be assigned again.
+Connect from Title or **Settings → Controllers**. On the Controllers page, select the intended player first, then:
+
+1. Release the controls to neutral and hold **Start for 750 ms**. Releasing early cancels the hold.
+2. When prompted, release Start, then **tap Start again to confirm** the assignment. Another long hold does not replace this tap.
+3. Check the connected-player message, then use the normal navigation/Confirm control. The claim-confirmation tap only assigns the device; it does not also activate a menu item.
+
+If focus is lost or the device disconnects before confirmation, repeat the claim. A device already owned by the other player cannot be assigned again. An assigned controller stays assigned when moving between menus; follow the page's prompt during in-session reassignment.
 
 Use the read-only detected-device information and Test Controls to confirm ownership. After reconnecting an ambiguous XInput device, make a fresh claim rather than relying on a remembered connection slot. Do not assume that two identical display names identify the same physical controller.
 
@@ -32,11 +38,13 @@ Keyboard fallback belongs to Player 1. Local VS still requires a separate physic
 
 ## Mapping, calibration and dead zones
 
-Choose the control type before editing. Fixed Twin-Stick profiles are read-only; supported Gamepad and Custom/Brook edits use the page's capture prompts. When a binding conflicts, review **Swap** or **Cancel** instead of silently replacing another action.
+Choose the control type before editing. Fixed Twin-Stick profiles are read-only. For Gamepad or Custom/Brook, use the capture prompts on enabled editable bindings; a profile choice alone does not make every contact editable. When a binding conflicts, review **Swap** or **Cancel** instead of silently replacing another action.
 
 For supported gamepads, calibrate one stick at a time: release it at center, then follow the full-travel prompt. Dead zones and X/Y inversion are separate settings. Incomplete travel is rejected; disconnecting during capture/calibration cancels that operation and retains saved values. Confirm that returning to center releases every contact.
 
 ## Test Controls, Save, Cancel and Restore Defaults
+
+During gameplay, a short Start press is the original arcade Start input. The longer controller-menu gesture and claiming prompts have separate roles; do not hold Start when you intend only an arcade Start press.
 
 **Test Controls** highlights the twelve left/right dashboard contacts: Up, Down, Left, Right, Weapon and Dash for each lever. Test individual inputs, simultaneous inputs and release to neutral. Input testing/capture temporarily isolates normal gameplay/menu confirmation.
 

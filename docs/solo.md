@@ -21,6 +21,6 @@ Controller reassignment uses the same [Controllers](controllers.md) page. Releas
 
 ## Leave Solo
 
-Choose **Return to Title** and confirm when you intend to end the session. The confirmation initially offers **Stay** so backing out preserves the game. Resume returns to the existing session; Return to Title ends it. Then use **Exit** from Title to close PROJECT OT normally.
+Choose **Return to Title** and confirm when you intend to end the session. The confirmation initially offers **Stay** so backing out preserves the game. Resume returns to the existing session; Return to Title ends it. Then choose **Exit** from Title and confirm to close PROJECT OT normally.
 
 If return or exit does not finish, preserve the message and report it rather than starting another copy over an unfinished session. See [troubleshooting](troubleshooting.md) and [known issues](known-issues.md).

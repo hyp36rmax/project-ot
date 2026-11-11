@@ -135,7 +135,7 @@ No commercial game ROMs or proprietary NAOMI BIOS files are provided.
 - [Audio output, volume and speaker tests](docs/audio.md)
 - [Solo](docs/solo.md), [Local VS on one PC](docs/local-vs.md) and [LAN VS between stations](docs/lan-vs.md)
 - [Troubleshooting](docs/troubleshooting.md) and [known issues](docs/known-issues.md)
-- [All player guides](docs/README.md)
+- [First-session walkthrough and all player guides](docs/README.md#first-session)
 
 ## Releases and project history
 

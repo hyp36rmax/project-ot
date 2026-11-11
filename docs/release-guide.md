@@ -19,9 +19,9 @@
 
 ## Installation section — pending
 
-The final guide must tell players which package to use, how to check it, which prerequisites to install, where authorized data belongs and how to start `ProjectOT.exe`. It must also explain how to retain existing settings/saves during upgrades. Those paths and migration steps are not frozen by this draft.
+The final package must specify extraction/data locations, integrity checks, launch and settings/save migration. See [Getting Started](getting-started.md) for the current Microsoft links; exact installation and upgrade steps remain package-dependent.
 
-Current development packaging has external .NET/Visual C++ prerequisites recorded in [Getting Started](getting-started.md). Verify them against the final artifact rather than assuming that every future package has the same dependency layout. Do not distribute a private development ZIP as a public substitute.
+The reviewed native package uses Microsoft.NETCore.App (.NET 10 Runtime x64), not Microsoft.WindowsDesktop.App; .NET Desktop Runtime is not required for that host. Visual C++ v14 x64 remains external. Recheck the final artifact before release; private development ZIPs are not public distribution packages.
 
 ## Release acceptance
 

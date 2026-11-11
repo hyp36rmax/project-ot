@@ -1,29 +1,22 @@
-# PROJECT OT: Virtual On Experience player guides
+# Pick Up & Play
 
-These guides cover Windows setup, controls, displays, audio and the three play modes. There is no public installation package yet. Specific unfinished features and configuration limits are listed in [known issues](known-issues.md).
+Start with [Getting Started](getting-started.md), then set up your controller, display and audio. Choose Solo, Local VS or LAN VS when ready to play.
 
-## Choose a guide
+## Set up PROJECT OT
 
-| Guide | What it covers |
-| --- | --- |
-| [Getting started](getting-started.md) | Windows environment, required game data and first launch |
-| [Controllers](controllers.md) | Modern dual-analog gamepads, Twin-Sticks, claiming and testing |
-| [Display](display.md) | Original 4:3, Hor+ widescreen rendering, quality and monitor arrangements |
-| [Audio](audio.md) | System Default, volume/mute, speaker tests and routing limits |
-| [Solo](solo.md) | Entering, managing and leaving a one-player session |
-| [Local VS](local-vs.md) | Two players on one PC with independent controls |
-| [LAN VS](lan-vs.md) | Compatible stations, Match Board flow and Direct Connect |
-| [Troubleshooting](troubleshooting.md) | Safe checks and useful issue reports |
-| [Known issues](known-issues.md) | Current support limits |
-| [Development history](development-history.md) | Approved narrative import status |
-| [Release guide](release-guide.md) | What must be verified before downloads and installation |
+1. [Getting Started](getting-started.md): package availability, Microsoft prerequisites, game files and launch.
+2. [Controllers](controllers.md): gamepads, arcade Twin-Sticks, player assignment and Test Controls.
+3. [Display](display.md): aspect ratio, rendering quality and single or dual displays.
+4. [Audio](audio.md): output preferences, volume, mute and speaker tests.
 
-## First session
+## Choose how to play
 
-Start with [Getting Started](getting-started.md), then [claim and test a controller](controllers.md#claiming-and-assigning-players), choose [Display](display.md) and [Audio](audio.md), and try [Solo](solo.md). For two players, follow [Local VS](local-vs.md) or [LAN VS](lan-vs.md). Each mode guide explains how to leave the session. Use [troubleshooting](troubleshooting.md) if a step fails; installation remains pending the final package.
+[Solo](solo.md) runs the original arcade game for one player. [Local VS](local-vs.md) brings two independent players together on one PC, using one monitor or two physical displays. It also explains Arcade Cabinet Mode for dedicated setups. [LAN VS](lan-vs.md) connects stations over Ethernet or Wi-Fi.
 
-## How to read status statements
+Each guide explains how to start and leave a session. If something goes wrong, use [Troubleshooting](troubleshooting.md) and [Known Issues](known-issues.md). Installation remains tied to the instructions supplied with the final package.
 
-**Verified** describes the stated evidence scope, such as a retained controller test or a particular rendering comparison. **Needs validation** means implementation or a design exists but the relevant physical or release acceptance is incomplete. **Blocked** means a required capability or source is unavailable. A test result for one build or device does not establish compatibility with every later build or device.
+## Behind PROJECT OT
 
-Start with [known issues](known-issues.md) when choosing a configuration. Return to the [project introduction](../README.md), [credits](../CREDITS.md) or [legal notes](../LEGAL.md) for project context.
+Interested in the motivation, discoveries and development journey? Read [Behind PROJECT OT](development-history.md). The story is separate from the setup instructions, so you can get playing without reading the technical history.
+
+[Project overview](../README.md) · [Release information](release-guide.md) · [Credits](../CREDITS.md) · [Legal notes](../LEGAL.md)

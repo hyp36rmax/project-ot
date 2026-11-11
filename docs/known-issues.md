@@ -1,27 +1,25 @@
-# Known issues and support limits
+# Known issues
 
-The software baseline is `v0.5.0-dev`. Final installation instructions and package-specific release notes remain pending. These limits identify unfinished checks without treating established Solo, Local VS or controller/display support as experimental.
+These notes describe the current `v0.5.0-dev` software. The first public package and final installation instructions are still being prepared.
 
-## Current limits
+## Controllers
 
-| Area | Limit |
-| --- | --- |
-| Controllers | Known profiles do not certify every hardware revision, adapter or connection. See the [profile table](controllers.md#known-profiles-and-physical-coverage). |
-| Display | Not every aspect, quality, monitor and Windows-scaling combination has been tested. Keep/Revert confirms a settings plan; use a new session for saved launch changes. Newer stacked Hor+ layouts need active-match acceptance. |
-| Audio | See the [current routing limitation](audio.md) for endpoint choices, Shared/Separate preferences and live sound. Physical output checks remain open. |
-| Pause | Linked gameplay may continue while the menu is open. Current Solo/cabinet pause-presentation changes need final physical checks. |
-| LAN VS | Wired Ethernet is recommended and wireless LAN is supported. Automatic discovery depends on Windows, adapter and router settings; use [Direct Connect](lan-vs.md#direct-connect-fallback) where available. The latest complete-match and simultaneous Ethernet/Wi-Fi acceptance remain open. |
-| Recovery | Device/display reconnect and invalid-configuration recovery have not been qualified for every setup. Do not delete a complete settings directory as a reset. |
-| Rendering effects | A reported missing-side impact effect at higher internal resolutions remains unresolved in live testing. Include aspect, quality and affected player/side in reports. |
-| Menu presentation | Recent Title/Pause visual changes still need physical acceptance in the integrated build. |
-| Exit | In current development packages, confirmed Title Exit can close other recognized PROJECT OT copies in the same Windows session. Save work in those copies first. Interactive acceptance of that cross-copy behavior remains open. |
+Use the matching profile and test every contact. Support does not certify every hardware revision, adapter, custom wiring or connection method. Reclaim ambiguous XInput devices after reconnecting.
 
-## Outside the current feature set
+## Display
 
-Vertical expansion, internet NETPLAY, rollback, spectators and experimental haptics are not supported player features. These Windows guides do not establish macOS, Linux or SteamOS parity.
+Not every monitor, aspect, quality and Windows-scaling combination has been tested. Newer stacked Hor+ layouts still need active-match checks. Keep/Revert confirms a settings plan; start a new session for saved launch changes. A reported missing-side impact effect at higher internal resolutions remains open; include aspect, quality and affected player/side when reporting it.
 
-[Report a problem](troubleshooting.md#reporting-a-problem) with a small, redacted reproduction record. A discovered LAN station or successful connection is separate from a completed linked match.
+## Audio
 
-## Documentation still pending
+Output preferences and speaker tests do not establish live game-audio routing. See the [Audio guide](audio.md) for the current limitation. Separate outputs and physical speaker channels still need end-to-end checks.
 
-The approved [development-history narrative](development-history.md), final public installation steps, complete third-party notices and distribution/source-access review remain open. The approved project introduction is preserved in the [README](../README.md).
+## LAN VS
+
+Ethernet is recommended; Wi-Fi is supported. Discovery varies with Windows, adapters and router settings. Use [Direct Connect](lan-vs.md#direct-connect) where available. Latest-package complete-match, mixed Ethernet/Wi-Fi and permission/recovery checks remain open.
+
+## Menus, recovery and exit
+
+Linked gameplay may continue behind the menu. Newer Title/Pause changes and device/display recovery still need physical checks; do not delete all preferences as a reset. Current development builds can close other recognized PROJECT OT copies in the same Windows session when Title Exit is confirmed. Save work in those copies first.
+
+Vertical expansion, Internet NETPLAY, rollback, spectators and experimental haptics are outside the current feature set. These Windows guides do not establish other-platform support. For a reproducible problem, use [Troubleshooting](troubleshooting.md#reporting-a-problem).

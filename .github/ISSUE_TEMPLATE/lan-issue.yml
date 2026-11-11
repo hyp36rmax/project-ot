@@ -1,0 +1,87 @@
+name: "LAN connection or gameplay"
+description: "Report local-network discovery, readiness or linked-gameplay problems."
+title: "[LAN]: "
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Use a small, redacted reproduction record. Do not attach ROMs, BIOS files,
+        saves, complete configuration directories or unfiltered diagnostic archives.
+        Remove usernames, private paths, IP/MAC addresses and credentials.
+  - type: input
+    id: version
+    attributes:
+      label: "Application / package version"
+      description: "Version shown in the app and package filename if known; no full local path."
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: "Windows environment"
+      description: "Windows version/build and x64; do not include account or computer names."
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: "Play mode"
+      description: "Select the affected area."
+      options:
+        - "Title / Settings"
+        - "Solo"
+        - "Local VS"
+        - "LAN VS"
+        - "Not sure"
+    validations:
+      required: true
+  - type: textarea
+    id: stations
+    attributes:
+      label: "Two-station setup"
+      description: "Use PC-A/PC-B labels; state matching package/data status, wired/Wi-Fi, same LAN and multiple adapters/VPN if relevant. No addresses or personal station names."
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: "Connection stage"
+      description: "Choose where the failure occurs."
+      options:
+        - "Match Board / discovery"
+        - "Challenge / Accept / Ready"
+        - "Direct Connect"
+        - "Game preparation / compatibility"
+        - "During linked gameplay"
+        - "Return / cleanup"
+        - "Not sure"
+    validations:
+      required: true
+  - type: textarea
+    id: permissions
+    attributes:
+      label: "Visible status and permissions"
+      description: "Short redacted message and whether Windows permission was requested/allowed; no complete firewall exports."
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce"
+      description: "Number the smallest steps; include how often the problem repeats."
+    validations:
+      required: true
+  - type: textarea
+    id: expected-actual
+    attributes:
+      label: "Expected and actual result"
+      description: "What should happen, what happened, and any short redacted error text."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Optional relevant evidence"
+      description: "Small redacted excerpts or approved images only; never include game or firmware archives."
+    validations:
+      required: false

@@ -1,0 +1,65 @@
+name: "General bug"
+description: "Report a reproducible PROJECT OT problem."
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Use a small, redacted reproduction record. Do not attach ROMs, BIOS files,
+        saves, complete configuration directories or unfiltered diagnostic archives.
+        Remove usernames, private paths, IP/MAC addresses and credentials.
+  - type: input
+    id: version
+    attributes:
+      label: "Application / package version"
+      description: "Version shown in the app and package filename if known; no full local path."
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: "Windows environment"
+      description: "Windows version/build and x64; do not include account or computer names."
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: "Play mode"
+      description: "Select the affected area."
+      options:
+        - "Title / Settings"
+        - "Solo"
+        - "Local VS"
+        - "LAN VS"
+        - "Not sure"
+    validations:
+      required: true
+  - type: textarea
+    id: configuration
+    attributes:
+      label: "Relevant configuration"
+      description: "Only the settings needed to reproduce the issue; do not paste entire private files."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce"
+      description: "Number the smallest steps; include how often the problem repeats."
+    validations:
+      required: true
+  - type: textarea
+    id: expected-actual
+    attributes:
+      label: "Expected and actual result"
+      description: "What should happen, what happened, and any short redacted error text."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Optional relevant evidence"
+      description: "Small redacted excerpts or approved images only; never include game or firmware archives."
+    validations:
+      required: false

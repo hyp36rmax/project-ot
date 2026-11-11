@@ -49,6 +49,12 @@ Independent controller ownership was equally important. Two players should be ab
 
 Seeing modern gamepads and original-style Twin-Sticks working together in a linked match was one of the more satisfying milestones.
 
+<!-- POT-MEDIA03:controller-illustration -->
+<p><a href="../assets/screenshots/controllers/tanita-player-one.png"><img src="../assets/screenshots/controllers/tanita-player-one.webp" alt="November 2026 development controller interface with the Tanita Twin-Stick assigned" width="960"></a></p>
+
+*Development illustration: DEV-UAT04, November 11, 2026. This illustrates the controller work described above; it is not a capture from an earlier milestone.*
+<!-- /POT-MEDIA03:controller-illustration -->
+
 ## Getting Two NAOMI Cabinets Running Together
 
 Local VS became one of the project's biggest challenges.
@@ -160,6 +166,12 @@ Each part serves the same purpose: make the original arcade software easier to e
 The interface also needed to work with gamepads and Twin-Sticks, not just a keyboard and mouse.
 
 A dedicated arcade setup should feel natural from the moment it launches.
+
+<!-- POT-MEDIA03:experience-illustration -->
+<p><a href="../assets/screenshots/title/title-menu.png"><img src="../assets/screenshots/title/title-menu.webp" alt="November 2026 PROJECT OT Title Menu with its logo and main choices" width="960"></a></p>
+
+*Development illustration: the DEV-UAT04 Experience interface, November 11, 2026.*
+<!-- /POT-MEDIA03:experience-illustration -->
 
 ## What We've Learned
 

@@ -1,3 +1,7 @@
+<!-- POT-MEDIA03:branding -->
+<p><img src="assets/branding/project-ot-logo.png" alt="PROJECT OT — VO Experience logo" width="420"></p>
+<!-- /POT-MEDIA03:branding -->
+
 # PROJECT OT
 ### Virtual On Experience
 
@@ -6,6 +10,12 @@
 PROJECT OT preserves the original SEGA NAOMI gameplay while bringing modern controller support, expanded displays, linked multiplayer and an improved player experience to Windows.
 
 Built around the original arcade release, the goal is to make *Oratorio Tangram* more accessible without changing what made it special.
+
+<!-- POT-MEDIA03:title -->
+<p><a href="assets/screenshots/title/title-menu.png"><img src="assets/screenshots/title/title-menu.webp" alt="PROJECT OT Title Menu with Solo, Multiplayer, Settings and Exit" width="960"></a></p>
+
+*Title Menu · authentic DEV-UAT04 capture, November 11, 2026.*
+<!-- /POT-MEDIA03:title -->
 
 ## Features
 
@@ -33,6 +43,12 @@ Controller assignment, button mapping, analog calibration and input testing are 
 
 [Controller Setup](docs/controllers.md)
 
+<!-- POT-MEDIA03:controllers -->
+<p><a href="assets/screenshots/controllers/tanita-player-one.png"><img src="assets/screenshots/controllers/tanita-player-one.webp" alt="Player 1 assigned to a Tanita Twin-Stick with the Tanita profile and independent lever controls" width="960"></a></p>
+
+*Twin-Stick configuration with a detected Tanita controller.*
+<!-- /POT-MEDIA03:controllers -->
+
 ### Local VS: One PC, Two Players
 
 Bring the original linked cabinet competition to a single Windows PC.
@@ -48,6 +64,21 @@ Each player receives a dedicated physical display, with independent controls, ga
 Play together on one ultrawide monitor or recreate the original two cabinet experience with separate screens.
 
 [Local VS Guide](docs/local-vs.md)
+
+<!-- POT-MEDIA03:local-vs -->
+<details>
+<summary>Compare Single Display and Dual Display VS configuration</summary>
+
+<p><a href="assets/screenshots/local-vs/local-vs-single-display-plan.png"><img src="assets/screenshots/local-vs/local-vs-single-display-plan.webp" alt="Local VS Single Display configuration with independent P1 and P2 arrangement preview" width="960"></a></p>
+
+*Single Display configuration. This is a settings preview, not a live two-player match.*
+
+<p><a href="assets/screenshots/local-vs/dual-display-configuration.png"><img src="assets/screenshots/local-vs/dual-display-configuration.webp" alt="Dual Display VS configuration with separate P1 and P2 monitor previews" width="960"></a></p>
+
+*Dual Display VS configuration. This is a settings preview, not a live two-monitor match.*
+
+</details>
+<!-- /POT-MEDIA03:local-vs -->
 
 ### Arcade Cabinet Mode
 
@@ -83,6 +114,12 @@ Rendering quality includes Original 480p, Performance 720p, High 1080p, Ultra 14
 Our dedicated runtime introduces improvements to rendering, projection and object visibility, allowing the original game world to expand horizontally rather than stretching the original 4:3 picture.
 
 [Display Settings](docs/display.md)
+
+<!-- POT-MEDIA03:gameplay -->
+<p><a href="assets/screenshots/gameplay/solo-combat-hud.png"><img src="assets/screenshots/gameplay/solo-combat-hud.webp" alt="Real Solo combat with Temjin, original game HUD and the opposing virtual-roid" width="960"></a></p>
+
+*Solo combat · configured 1920×1080 internal rendering; original 2560×1440 ARMADA capture.*
+<!-- /POT-MEDIA03:gameplay -->
 
 ### Unified Experience
 

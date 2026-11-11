@@ -14,6 +14,16 @@ Compatible gamepads and Twin-Sticks can be mixed. P1 can use keyboard fallback; 
 
 Single Display puts both independent views on one monitor. Dual Display VS gives each player a separate physical display. Assign monitors before starting.
 
+<!-- POT-MEDIA03:arrangements -->
+<p><a href="../assets/screenshots/local-vs/local-vs-single-display-plan.png"><img src="../assets/screenshots/local-vs/local-vs-single-display-plan.webp" alt="Local VS Single Display configuration with independent P1 and P2 arrangement preview" width="960"></a></p>
+
+*Single Display configuration. This is a settings preview, not a live two-player match.*
+
+<p><a href="../assets/screenshots/local-vs/dual-display-configuration.png"><img src="../assets/screenshots/local-vs/dual-display-configuration.webp" alt="Dual Display VS configuration with separate P1 and P2 monitor previews" width="960"></a></p>
+
+*Dual Display VS configuration. This is a settings preview, not a live two-monitor match.*
+<!-- /POT-MEDIA03:arrangements -->
+
 ## Arcade Cabinet Mode
 
 Arcade Cabinet Mode is a validated feature for dedicated setups, with two persistent NAOMI cabinet environments and independent player controls and displays. Select the same-PC Local VS session in Display settings and use its **Arcade Cabinet Mode** choice. This is distinct from a standard temporary Local VS session.

@@ -14,6 +14,12 @@ With a controller, Confirm enters volume editing, Up/Down adjusts the level, and
 
 Choose an enabled left or right test and listen for the expected physical speaker. The chime is separate from gameplay sound and can run without a game. A test-only mute bypass does not unmute the game or Windows. Report test silence separately from gameplay silence.
 
+<!-- POT-MEDIA03:speaker -->
+<p><a href="../assets/screenshots/audio/audio-speaker-test.png"><img src="../assets/screenshots/audio/audio-speaker-test.webp" alt="Audio settings with Shared Audio selected and the left speaker-test button highlighted" width="960"></a></p>
+
+*Speaker-test interface after invocation. Physical audibility was not independently verified; live game audio routing is not demonstrated.*
+<!-- /POT-MEDIA03:speaker -->
+
 ## Local VS and saved settings
 
 **Shared Audio** has common output/volume preferences. **Separate Audio** offers player-specific preferences where enabled, subject to the routing limit above. There are no independent music, announcer or weapon-effect controls.

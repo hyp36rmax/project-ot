@@ -13,10 +13,14 @@ Start with [Getting Started](getting-started.md), then set up your controller, d
 
 [Solo](solo.md) runs the original arcade game for one player. [Local VS](local-vs.md) brings two independent players together on one PC, using one monitor or two physical displays. It also explains Arcade Cabinet Mode for dedicated setups. [LAN VS](lan-vs.md) connects stations over Ethernet or Wi-Fi.
 
-Each guide explains how to start and leave a session. If something goes wrong, use [Troubleshooting](troubleshooting.md) and [Known Issues](known-issues.md). Installation remains tied to the instructions supplied with the final package.
+Each guide explains how to start and leave a session. If something goes wrong, use [Troubleshooting](troubleshooting.md) and [Known Issues](known-issues.md). The current RC remains private and not cleared for public distribution. Follow the [release guide](release-guide.md) for layout and open gates.
 
 ## Behind PROJECT OT
 
 Interested in the motivation, discoveries and development journey? Read [Behind PROJECT OT](development-history.md). The story is separate from the setup instructions, so you can get playing without reading the technical history.
 
 [Project overview](../README.md) · [Release information](release-guide.md) · [Credits](../CREDITS.md) · [Legal notes](../LEGAL.md)
+
+## Feedback and network access
+
+[Feedback & Diagnostics](feedback.md) explains F12 and local exports. [Windows network access](network-access.md) covers legitimate authorization and current limits. [RC release notes](release-notes-v0.5.0-rc.1.md) describe the candidate without implying it is published.

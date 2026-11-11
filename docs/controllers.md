@@ -22,3 +22,7 @@ Use enabled binding prompts to customize controls. Fixed Twin-Stick mappings are
 Accepted binding edits auto-save. Cancel stops the active capture, not earlier edits. Where an assignment screen offers Save/Cancel, they apply to that pending selection. **Restore Defaults** affects the current control type and offers **Undo**.
 
 A short gameplay Start press is the arcade Start input; the longer menu gesture has a different purpose.
+
+## Returning to Title
+
+An earlier controller-navigation report after Solo was not reproduced on physical retest. The RC preserves existing routing. If it recurs, use keyboard or mouse to open [F12 Feedback](feedback.md), and record the player assignments and claim order. Clicking or reconnecting is not an accepted correction.

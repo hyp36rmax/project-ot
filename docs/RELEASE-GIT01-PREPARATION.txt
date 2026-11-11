@@ -1,0 +1,15 @@
+PROJECT OT v0.5.0-rc.1 — private player-document checkpoint
+No public RC download is offered. The private validation ZIP is not in Git.
+This branch reconciles existing approved player guidance and records the exact
+candidate identities. Original versioned approved screenshots remain unchanged;
+no new logo/video or unresolved third-party asset is added. Existing screenshot
+public-rights approval remains a separate release requirement.
+Runtime engineering/source reference: https://github.com/hyp36rmax/flycast-lean-voot
+That repository is private. It is not proof of recipient corresponding-source
+access. Exact runtime source revisions/hashes are recorded in RC-Checkpoint.json;
+actual complete source co-delivery and recipient access remain pending approval.
+CDI compatibility, supplied/embedded asset rights/notices, Experience/runtime
+licensing scope and recipient terms remain open. This is not compliance clearance.
+Physical UAT is deferred by the maintainer, not an observed new PASS. Sustained
+LAN0xB002, high-resolution HITFX and Windows permission observations retain their
+recorded limitations. No public source/binary release, tag or promotion is made.

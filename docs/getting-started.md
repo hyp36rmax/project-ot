@@ -8,14 +8,14 @@ The current package requires [Microsoft .NET 10 Runtime x64](https://dotnet.micr
 
 ## Download, set up and play
 
-The first public package is still being prepared. When available:
+The current candidate is `v0.5.0-rc.1`, prepared privately and not cleared for public distribution. The first public package is still being prepared. Once an approved package is available:
 
 1. Download the approved package from [GitHub Releases](https://github.com/hyp36rmax/project-ot/releases) and follow its extraction instructions.
-2. Add your authorized game and NAOMI firmware files in the location specified by that package. Current preparation uses `vonot.zip` and `naomi.zip`, with `jvs13551.zip` and `mie.zip` where required. Use the documented revisions and checksums.
+2. Put your compatible, legally obtained `vonot.zip` and `naomi.zip` in the root `data/` directory beside `ProjectOT.exe`. No game or firmware is supplied. Do not put archives in either runtime directory; this candidate does not require separate `jvs13551.zip` or `mie.zip` files.
 3. Launch `ProjectOT.exe`.
 4. Open **Settings** to [claim and test your controller](controllers.md), choose [Display](display.md) and review [Audio](audio.md).
 5. Choose [Solo](solo.md), **Multiplayer → Local VS**, or **Multiplayer → Link Play → LAN VS**.
 
 Use the mode guide to end the session, then return to Title and confirm **Exit**. Keep previous installations and saves separate until upgrade instructions are available.
 
-No game or firmware downloads are supplied. For startup errors, see [Troubleshooting](troubleshooting.md); final installation paths and migration steps remain package-dependent.
+No game or firmware downloads are supplied. For startup errors, see [Troubleshooting](troubleshooting.md); use [package layout and rollback](release-guide.md#package-layout-and-rollback) for this candidate.

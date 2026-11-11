@@ -8,7 +8,9 @@ Open **Settings → Audio** and choose Solo or Local VS. Start at a comfortable 
 
 With a controller, Confirm enters volume editing, Up/Down adjusts the level, and Confirm or Back finishes editing. Mouse and keyboard adjustment are also available.
 
-**Current live-routing limit:** endpoint choices and Shared/Separate preferences configure settings and tests; they do not route live game audio. Existing gameplay uses the build's established output path. Applying this page's volume/mute settings to gameplay still needs end-to-end checking.
+A fresh package starts at **100% Master Volume, Mute Off**. Explicit saved preferences remain respected. Volume and mute use the existing game-session audio policy, without extra amplification.
+
+**Current endpoint-routing limit:** named endpoint and Separate Audio configuration do not establish independent live-cabinet output routing. Local VS retains its qualified shared-output path. Speaker/channel routing and audible RC acceptance still need physical checks.
 
 ## Speaker Test
 

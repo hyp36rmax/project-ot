@@ -10,7 +10,16 @@ Rendering Quality offers **Original 480p**, **Performance 720p**, **High 1080p**
 
 ## Single Display and Dual Display VS
 
-**Single Display** is the default for Solo and Local VS. Local VS gives both players independent views on one monitor. The established 32:9 layout is side-by-side; check [Known Issues](known-issues.md#display) for newer stacked layouts.
+**Single Display** is the default for Solo and Local VS. Local VS gives both players independent views on one monitor. This candidate resolves Automatic and explicit selections through the same effective-aspect layout policy without rewriting Automatic in saved settings.
+
+| Effective shared-output aspect | Player arrangement |
+| --- | --- |
+| 4:3 | P1 top, P2 bottom |
+| 16:9 | P1 top, P2 bottom |
+| 21:9 | P1 top, P2 bottom |
+| 32:9 | P1 left, P2 right |
+
+This describes the qualified borderless planner; the existing windowed fallback retains its fitted presentation. Physical RC acceptance remains open. See [Known Issues](known-issues.md#display).
 
 **Dual Display VS** gives each Local VS player a separate physical monitor. Assign both displays, use **Identify** to locate them and **Swap Screens** where offered to exchange player placement. Windows display duplication does not provide independent player views.
 

@@ -16,12 +16,6 @@ The first public package is still being prepared. When available:
 4. Open **Settings** to [claim and test your controller](controllers.md), choose [Display](display.md) and review [Audio](audio.md).
 5. Choose [Solo](solo.md), **Multiplayer → Local VS**, or **Multiplayer → Link Play → LAN VS**.
 
-<!-- POT-MEDIA03:title -->
-<p><a href="../assets/screenshots/title/title-menu.png"><img src="../assets/screenshots/title/title-menu.webp" alt="Title Menu showing the Solo, Multiplayer, Settings and Exit choices" width="960"></a></p>
-
-*Title Menu from the captured DEV-UAT04 build.*
-<!-- /POT-MEDIA03:title -->
-
 Use the mode guide to end the session, then return to Title and confirm **Exit**. Keep previous installations and saves separate until upgrade instructions are available.
 
 No game or firmware downloads are supplied. For startup errors, see [Troubleshooting](troubleshooting.md); final installation paths and migration steps remain package-dependent.

@@ -11,16 +11,6 @@ Solo runs the original *Virtual-On: Oratorio Tangram M.S.B.S. Ver. 5.66* arcade 
 
 Keep the short arcade Start input separate from the controller's longer menu gesture. Follow the game's own prompts as you play.
 
-<!-- POT-MEDIA03:combat -->
-<p><a href="../assets/screenshots/gameplay/solo-combat-hud.png"><img src="../assets/screenshots/gameplay/solo-combat-hud.webp" alt="Real Solo combat with Temjin, original game HUD and the opposing virtual-roid" width="960"></a></p>
-
-*Solo combat · configured 1920×1080 internal rendering; original 2560×1440 ARMADA capture.*
-<!-- /POT-MEDIA03:combat -->
-
-<!-- POT-MEDIA03:function-link -->
-[Verified gameplay function keys](functions.md) describe the current F5–F8 behavior and capture evidence.
-<!-- /POT-MEDIA03:function-link -->
-
 ## Open the menu or leave
 
 Keyboard **ESC** opens the Experience menu. Use **Resume** to return to the same session, **Controllers** to adjust assignment, or **Return to Title** to finish. Release held inputs before resuming.

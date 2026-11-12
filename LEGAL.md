@@ -14,12 +14,12 @@ The final release must identify its required game revision and firmware without 
 
 ## Runtime source and licensing
 
-The execution runtime is derived from Flycast and retains its applicable GPL licensing requirements. [Flycast Lean VOOT](https://github.com/hyp36rmax/flycast-lean-voot) is the separate source and runtime-documentation repository. Its current access restrictions must be resolved through an approved recipient-access route before distribution; this page does not imply that the repository is already public.
+The execution runtime is derived from Flycast and retains its applicable GPL licensing requirements. [Flycast Lean VOOT](https://github.com/hyp36rmax/flycast-lean-voot) and its [corrected RC source release](https://github.com/hyp36rmax/flycast-lean-voot/releases/tag/source-v0.5.0-rc.1-corrected) are public. Both matching native-runtime variants, dependencies, build materials, notices and hosted protocol documentation are available, with anonymous recipient access and checksums verified. See [Runtime Source & Licensing](README.md#runtime-source--licensing).
 
-The Experience application, runtime and third-party components must be assessed according to their actual integration and licenses. This text does not assign a new license to the private Experience implementation or settle the distribution obligations of an unfinished package.
+The Experience application, runtime and third-party components must be assessed according to their actual integration and licenses. Additional Experience host/interface source-scope and installation obligations remain unresolved. Proposed Experience recipient terms remain subject to maintainer approval and a supported licensing determination. This text publishes no private C# code, assigns no new proprietary restrictions to covered components and does not settle that boundary.
 
 ## Release review still required
 
-Before offering a package, the maintainer must complete review of its actual component inventory, applicable notices, corresponding-source route, build/install materials, recipient access and asset rights. Documentation, screenshots, logos and any other media also need an approved rights/provenance record for their intended use.
+The public RC's availability and completed native-runtime source delivery do not close the remaining Experience licensing and installation review or grant rights to third-party material. Applicable notices, required source/build/install materials and asset permissions remain governed by their actual licenses and rights.
 
-No public binary release or redistribution clearance is established by this foundation. The [release guide](docs/release-guide.md) separates package preparation from approval. [Credits](CREDITS.md) provide supported attribution; the full licensing and distribution audit remains a separate gate.
+The [public RC](https://github.com/hyp36rmax/project-ot/releases/tag/v0.5.0-rc.1) is available, but full compliance clearance is not claimed. The [release guide](docs/release-guide.md) distinguishes availability, completed source delivery and outstanding decisions. [Credits](CREDITS.md) provide supported attribution.

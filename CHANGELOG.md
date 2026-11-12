@@ -2,6 +2,13 @@
 
 This file records documentation changes. It does not establish a downloadable software release.
 
+## Documentation correction — November 12, 2026
+
+- Linked the public v0.5.0-rc.1 RC and its matching corrected native-runtime source, build materials, dependencies, notices and hosted protocol documentation.
+- Recorded the runtime/source SHA-256 values and corrected outdated private/unavailable status in maintained guides.
+- Kept the Experience source-scope and installation review, proposed recipient terms and physical qualification limits distinct from completed runtime-source delivery.
+- No release description, ZIP, tag, media, application or runtime changes. Earlier entries retain their historical preparation status.
+
 ## Unreleased — RC release-note preparation — November 11, 2026
 
 - Prepared full v0.5.0-rc.1 notes, exact unchanged package inventory and local GitHub Release content.
@@ -45,4 +52,4 @@ This file records documentation changes. It does not establish a downloadable so
 - Added issue forms for general bugs, controllers, displays and LAN problems.
 - Reserved the development-history narrative for its approved source text.
 
-The current privately prepared software candidate is `v0.5.0-rc.1`; earlier entries describe its documentation history. Final package contents, installation instructions, hardware qualification, release notes and distribution approval remain open. Future software entries must identify the actual version, date, changes and known limitations of the offered package. See the [release guide](docs/release-guide.md).
+The current public software candidate is `v0.5.0-rc.1`; earlier entries describe its documentation history. Matching native-runtime source delivery is public. Physical qualification and the Experience source-scope, installation and recipient-terms review remain open. Future software entries must identify the actual version, date, changes and known limitations of the offered package. See the [release guide](docs/release-guide.md).

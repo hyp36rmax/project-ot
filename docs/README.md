@@ -16,7 +16,7 @@ Use the [Multiplayer menu](multiplayer.md) for Local VS and [Link Play](link-pla
 
 [Solo](solo.md) runs the original arcade game for one player. [Local VS](local-vs.md) brings two independent players together on one PC, using one monitor or two physical displays. It also explains Arcade Cabinet Mode for dedicated setups. [LAN VS](lan-vs.md) connects stations over Ethernet or Wi-Fi.
 
-Each guide explains how to start and leave a session. If something goes wrong, use [Troubleshooting](troubleshooting.md) and [Known Issues](known-issues.md). The current RC remains private and not cleared for public distribution. Follow the [release guide](release-guide.md) for layout and open gates.
+Each guide explains how to start and leave a session. If something goes wrong, use [Troubleshooting](troubleshooting.md) and [Known Issues](known-issues.md). The [public RC](https://github.com/hyp36rmax/project-ot/releases/tag/v0.5.0-rc.1) and [matching runtime source](../README.md#runtime-source--licensing) are available. Follow the [release guide](release-guide.md) for layout and remaining qualification and licensing limits.
 
 ## Behind PROJECT OT
 
@@ -26,4 +26,4 @@ Interested in the motivation, discoveries and development journey? Read [Behind 
 
 ## Feedback and network access
 
-[Feedback & Diagnostics](feedback.md) explains F12 and local exports. [Windows network access](network-access.md) covers legitimate authorization and current limits. [RC release notes](release-notes-v0.5.0-rc.1.md) describe the candidate without implying it is published.
+[Feedback & Diagnostics](feedback.md) explains F12 and local exports. [Windows network access](network-access.md) covers legitimate authorization and current limits. [RC release notes](release-notes-v0.5.0-rc.1.md) describe the published candidate and remaining limits.

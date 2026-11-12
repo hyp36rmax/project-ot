@@ -4,7 +4,7 @@
 
 Our first Release Candidate brings the original NAOMI 5.66 experience to modern Windows hardware through our customized Flycast Lean runtime and Project OT Experience framework.
 
-**Private release preparation: no public RC download is available or authorized yet.** Redistribution and complete recipient source access remain mandatory gates. These notes describe the candidate scope, not a cleared public offering.
+**[v0.5.0-rc.1 is available as a public Release Candidate](https://github.com/hyp36rmax/project-ot/releases/tag/v0.5.0-rc.1).** Matching corrected native-runtime source has been published and its anonymous retrieval verified. Experience source-scope and installation obligations, proposed recipient terms and physical qualification remain open; availability is not a claim of full compliance clearance.
 
 ## What's included
 
@@ -58,7 +58,7 @@ Fresh audio defaults are 100% Master Volume and Mute Off. Explicit saved prefere
 
 ## Installation
 
-Once a public package is approved:
+For the [public RC download](https://github.com/hyp36rmax/project-ot/releases/tag/v0.5.0-rc.1):
 
 1. Use a Windows x64 PC with a compatible graphics/input environment for the DX11 runtime. These notes do not introduce a new minimum CPU, GPU or Windows-version certification.
 2. Install the official [Microsoft .NET 10 Runtime x64](https://dotnet.microsoft.com/en-us/download/dotnet/10.0). The native Experience does not require the SDK or Desktop Runtime.
@@ -97,8 +97,8 @@ Reports are exported locally; nothing is uploaded automatically. Review diagnost
 
 SEGA and the original Virtual-On creators made the game this project preserves. [Flycast](https://github.com/flyinghead/flycast), flyinghead and its contributors provide the runtime foundation, building on [reicast](https://github.com/skmp/reicast-emulator) and other contributors. See [Credits](CREDITS.md) for the existing acknowledgments.
 
-The required corresponding-source recipient mechanism for both modified runtimes is not yet verified. No working public corresponding-source link is asserted here. Complete exact variant source, dependency/build materials and any required covered interface/install material must be delivered under the applicable terms before binary publication. Adding an upstream link alone does not satisfy that gate.
+The [corrected runtime source release](https://github.com/hyp36rmax/flycast-lean-voot/releases/tag/source-v0.5.0-rc.1-corrected) supplies both matching runtime variants, dependencies, build materials, notices and hosted protocol documentation. Anonymous access and checksums were verified. See [Runtime Source & Licensing](README.md#runtime-source--licensing) for the executable and source-bundle hashes. Independent bit-for-bit build reproducibility is not established.
 
-CDI/GPL compatibility, Experience/runtime licensing, asset rights, final notices, recipient source access and final release approval remain mandatory. The existing private-only package terms also need an approved recipient-facing resolution. Prepared notices and source hashes are evidence, not distribution permission.
+The published native-runtime source includes the CDI-exclusion correction. Any additional Experience host/interface/build/install source obligations remain unresolved, and the proposed Experience recipient terms still require maintainer approval and a supported licensing determination. Public runtime source delivery does not establish full distribution clearance or grant rights to third-party material.
 
 PROJECT OT is an unofficial fan project, not affiliated with or endorsed by SEGA. Original game content, artwork and trademarks remain with their respective owners. No game or BIOS material is supplied, and no additional rights are granted by these release notes.

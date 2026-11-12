@@ -49,7 +49,7 @@ Their present corrected-RC impact remains unqualified. Describing them as confir
 - The complete physical UAT was **not repeated** on the exact final corrected public ZIP.
 - Specific controller reconnection, reassignment, ambiguous-device and return-to-Title combinations remain to be qualified on that package.
 - Selected first-frame aspect checks, monitor/DPI recovery and additional Alt+Tab/device-topology cases remain open. Prior accepted display and Alt+Tab tests are not erased.
-- Higher-resolution live HITFX coverage remains open, including the reported missing sides at 1440p/4K. The passing replay does not establish a live correction.
+- Higher-resolution live HITFX coverage at 1440p and 4K remains pending physical acceptance. Passing native replay checks do not establish live rendering acceptance at those resolutions.
 - Intermittent `NETWORK ERROR` / `0xB002`, a previously observed Wi-Fi dropout, reversed network roles and repeated reconnect/failure recovery remain under investigation. Development match completion does not promise universal reliability.
 - Twelve-hour Solo/Local VS, monitor sleep/disconnection and sudden-power-loss qualification remain future work; the four completed hour-plus endurance sessions are distinct from those longer targets.
 - Audible final-RC routing and actual Windows authorization/reuse/denial observations remain separate scoped checks.

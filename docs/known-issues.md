@@ -1,25 +1,38 @@
-# Known issues
+# Known issues in v0.5.0-rc.1
 
-These notes describe the current `v0.5.0-dev` software. The first public package and final installation instructions are still being prepared.
+The candidate is prepared privately. Physical RC acceptance, source delivery and licensing review are still open; there is no approved public download.
 
 ## Controllers
 
-Use the matching profile and test every contact. Support does not certify every hardware revision, adapter, custom wiring or connection method. Reclaim ambiguous XInput devices after reconnecting.
+Profiles do not certify every device revision, adapter or wiring combination. Reclaim ambiguous reconnected devices. An earlier Solo-to-Title navigation report was not reproduced on physical retest; no routing change was made. If it returns, record both player assignments and the claim order through [F12 Feedback](feedback.md).
 
 ## Display
 
-Not every monitor, aspect, quality and Windows-scaling combination has been tested. Newer stacked Hor+ layouts still need active-match checks. Keep/Revert confirms a settings plan; start a new session for saved launch changes. A reported missing-side impact effect at higher internal resolutions remains open; include aspect, quality and affected player/side when reporting it.
+Automatic and explicit effective aspects use the same Local VS Single Display geometry. Physical checks across monitors, rendering qualities and Windows scaling remain open. Keep/Revert confirms a settings plan; start a new session for saved launch changes. Remaining horizontal damage-flash coverage checks at higher render heights are not closed by the layout correction.
 
 ## Audio
 
-Output preferences and speaker tests do not establish live game-audio routing. See the [Audio guide](audio.md) for the current limitation. Separate outputs and physical speaker channels still need end-to-end checks.
+Fresh-package defaults are 100% and unmuted; explicit saved preferences are preserved. Named endpoints and Separate Audio settings do not qualify independent live-cabinet routing. See [Audio](audio.md) and complete audible RC checks.
 
 ## LAN VS
 
-Ethernet is recommended; Wi-Fi is supported. Discovery varies with Windows, adapters and router settings. Use [Direct Connect](lan-vs.md#direct-connect) where available. Latest-package complete-match, mixed Ethernet/Wi-Fi and permission/recovery checks remain open.
+A reported `0xB002` error remains unresolved. Sustained cross-PC gameplay, completed-match reliability, mixed Ethernet/Wi-Fi operation and permission-denial recovery need qualification. Wired Ethernet is recommended. [Direct Connect](lan-vs.md#direct-connect) does not bypass compatibility or permissions.
+
+## Windows network authorization
+
+Local VS loopback bindings are verified, but the producer and trigger of a reported Windows firewall dialog remain unknown. Do not disable protection or create broad exceptions as a workaround. Record the application name, executable path and play mode; see [network access](network-access.md).
 
 ## Menus, recovery and exit
 
-Linked gameplay may continue behind the menu. Newer Title/Pause changes and device/display recovery still need physical checks; do not delete all preferences as a reset. Current development builds can close other recognized PROJECT OT copies in the same Windows session when Title Exit is confirmed. Save work in those copies first.
+Linked gameplay may continue behind the native menu. Complete physical Title/Pause, device recovery, Alt+Tab and cleanup checks on the RC. Current Global Exit can close other recognized Project OT copies in the same Windows session when Title Exit is confirmed; close other sessions normally before testing.
 
-Vertical expansion, Internet NETPLAY, rollback, spectators and experimental haptics are outside the current feature set. These Windows guides do not establish other-platform support. For a reproducible problem, use [Troubleshooting](troubleshooting.md#reporting-a-problem).
+## Features outside this candidate
+
+Vertical expansion, Internet Netplay, rollback, spectators and gameplay-triggered rumble are not offered features. No benchmark or latency improvement is claimed for this RC.
+
+## Distribution clearance
+
+The ROM-free file audit does not establish licensing clearance. Exact corresponding source for both runtime binaries, complete dependency notices and relinking materials, recipient access, integration scope and asset rights remain release gates. See [release readiness](release-guide.md#release-gates) and [legal notes](../LEGAL.md).
+
+
+The RELEASE-DAY01 source includes the approved Solo launch correction for 16:9, 21:9 and 32:9. Saved preferences and launch configuration are verified; first-frame physical rendering has not been independently retested. The maintainer approved proceeding on engineering evidence.

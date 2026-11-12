@@ -8,7 +8,9 @@ Open **Settings → Audio** and choose Solo or Local VS. Start at a comfortable 
 
 With a controller, Confirm enters volume editing, Up/Down adjusts the level, and Confirm or Back finishes editing. Mouse and keyboard adjustment are also available.
 
-**Current live-routing limit:** endpoint choices and Shared/Separate preferences configure settings and tests; they do not route live game audio. Existing gameplay uses the build's established output path. Applying this page's volume/mute settings to gameplay still needs end-to-end checking.
+A fresh package starts at **100% Master Volume, Mute Off**. Explicit saved preferences remain respected. Volume and mute use the existing game-session audio policy, without extra amplification.
+
+**Current endpoint-routing limit:** named endpoint and Separate Audio configuration do not establish independent live-cabinet output routing. Local VS retains its qualified shared-output path. Speaker/channel routing and audible RC acceptance still need physical checks.
 
 ## Speaker Test
 
@@ -21,3 +23,7 @@ Choose an enabled left or right test and listen for the expected physical speake
 Valid changes save automatically for each mode; wait for the saved status. An unavailable saved output falls back to System Default. Recheck it after reconnecting devices. Use Restore Defaults for the current Audio settings when offered. Keep any load/save error message rather than deleting the configuration directory.
 
 See [Troubleshooting](troubleshooting.md) for silent output.
+
+![Audio Settings showing Solo volume at 100% and Mute Off](../assets/screenshots/audio-settings.png)
+
+Solo Audio Settings at 100% Master Volume with Mute Off. Speaker tests and endpoint configuration are separate from live gameplay-routing qualification.

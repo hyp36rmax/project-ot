@@ -11,6 +11,10 @@ PROJECT OT preserves the original SEGA NAOMI gameplay while bringing modern cont
 
 Built around the original arcade release, the goal is to make *Oratorio Tangram* more accessible without changing what made it special.
 
+## Release candidate status
+
+`v0.5.0-rc.1` is prepared for private review. **There is no approved public download yet.** Physical RC acceptance, corresponding-source delivery and licensing review remain open. See [release readiness](docs/release-guide.md) and [known issues](docs/known-issues.md).
+
 ## Features
 
 ### Original Arcade Experience
@@ -21,7 +25,7 @@ Experience authentic NAOMI 5.66 gameplay, preserving the original movement, weap
 
 Play with modern dual analog gamepads or compatible arcade Twin-Stick hardware.
 
-**Compatible Controllers**
+**Controller layouts and profiles**
 
 | Gamepads | Arcade Twin-Sticks |
 |---|---|
@@ -34,6 +38,8 @@ Play with modern dual analog gamepads or compatible arcade Twin-Stick hardware.
 Mix compatible controllers in Local VS. One player can use a gamepad while the other uses Twin-Sticks, or both can use their preferred setup.
 
 Controller assignment, button mapping, analog calibration and input testing are managed directly within PROJECT OT.
+
+The table lists available layouts and profiles, not certification of every controller or adapter revision. Check the guide for setup and qualification limits.
 
 [Controller Setup](docs/controllers.md)
 
@@ -68,6 +74,8 @@ Connect PROJECT OT stations across your local network.
 The Match Board lets players discover available stations, challenge opponents, accept matches and confirm readiness. Direct Connect provides an alternative when automatic discovery is unavailable.
 
 **Wired Ethernet is recommended.** Wi-Fi is also supported, although station discovery can vary depending on Windows, wireless adapter capabilities and router settings.
+
+Sustained cross-PC gameplay remains under qualification. A reported `NETWORK ERROR` / `0xB002` is unresolved; this RC does not claim a networking fix.
 
 [LAN VS Guide](docs/lan-vs.md)
 
@@ -107,23 +115,35 @@ A Windows x64 PC, compatible gamepad or Twin-Sticks, and your legally obtained *
 | Microsoft .NET 10 Runtime x64 | [Microsoft .NET 10](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) |
 | Microsoft Visual C++ Redistributable x64 | [Microsoft VC++ Runtime](https://aka.ms/vc14/vc_redist.x64.exe) |
 
-The final distribution package will confirm the exact prerequisites.
+The current candidate uses external .NET 10 Runtime x64 and Visual C++ v14 x64. The native Experience does not require the .NET SDK or Desktop Runtime. See [installation and prerequisites](docs/getting-started.md#microsoft-prerequisites) for the checked baseline.
 
 ### Pick Up & Play
 
 1. Download PROJECT OT from [GitHub Releases](https://github.com/hyp36rmax/project-ot/releases) when available.
-2. Extract or install the package following its instructions.
-3. Add your legally obtained game and required NAOMI files.
+2. Extract the complete ZIP into a new folder and follow its instructions.
+3. Put your legally obtained compatible `vonot.zip` and `naomi.zip` in the root `data/` folder.
 4. Launch `ProjectOT.exe`.
-5. Connect your controller, choose your game mode and play.
+5. Follow the on-screen controller claim instructions, check settings and choose your game mode.
 
 [Pick Up & Play Guide](docs/getting-started.md)
 
 ## Screenshots & Gameplay
 
-Authentic gameplay, controller configuration, display settings, Title Menu and LAN Match Board screenshots will be featured here.
+User-supplied captures of the Project OT Experience. Screenshots illustrate the interface and captured gameplay; they do not establish additional hardware acceptance or sustained LAN reliability.
 
-All captures will use the actual PROJECT OT Experience, with 1920×1080 as the primary presentation and expanded aspect ratios where appropriate.
+![Project OT Title menu with Solo, Multiplayer, Settings and Exit](assets/screenshots/title-menu.png)
+
+**Title Menu** — the Project OT entry point.
+
+![Local VS combat with independent player views stacked on one display](assets/screenshots/local-vs.png)
+
+**Local VS** — linked two-player gameplay, with P1 above P2 in this capture.
+
+![Multiplayer menu with Local VS, Link Play and Back](assets/screenshots/multiplayer.png)
+
+**Multiplayer** — navigation to local and linked play. Internet NETPLAY VS remains unavailable.
+
+See the [player guides](docs/README.md) for Settings, Link Play and Match Board captures.
 
 ## Frequently Asked Questions
 
@@ -137,7 +157,7 @@ No. PROJECT OT runs the original NAOMI arcade software through our dedicated run
 
 ### Can I use arcade Twin-Sticks?
 
-Yes. Compatible HORI, Tanita, Brook based and Raphnet connected Twin-Stick setups are supported.
+Profiles are available for HORI, Tanita, Custom/Brook and the listed Raphnet adapters. Physical coverage varies by device and revision; use [Controller Setup](docs/controllers.md) and Test Controls before play.
 
 ### Can two players share one PC?
 
@@ -157,7 +177,7 @@ Yes. PROJECT OT supports original 4:3 presentation and expanded 16:9, 21:9 and 3
 
 ### Can I play over Wi-Fi?
 
-Yes. Both Ethernet and Wi-Fi are supported for LAN VS. Wired Ethernet is recommended for the most consistent experience.
+Ethernet and Wi-Fi discovery paths are implemented. Wired Ethernet is recommended, but sustained cross-PC reliability remains unqualified for this RC. See the [LAN guide](docs/lan-vs.md) and [known issues](docs/known-issues.md#lan-vs).
 
 ### Does PROJECT OT include the original game?
 
@@ -165,7 +185,7 @@ No. Players must provide their own legally obtained game and required firmware.
 
 ### Is PROJECT OT open source?
 
-PROJECT OT uses a dedicated runtime with applicable open-source licensing requirements. Source information, credits and licensing details are available through the project's separate documentation.
+The runtime is derived from Flycast and retains its applicable GPL obligations. [Flycast Lean VOOT](https://github.com/hyp36rmax/flycast-lean-voot) holds runtime engineering, performance research and source documentation. Recipient access and the exact corresponding-source handoff remain release gates. The private Experience integration is still under licensing review; repository separation does not settle that boundary.
 
 ## Behind PROJECT OT
 
@@ -175,11 +195,20 @@ From modern Twin-Stick support and expanded displays to bringing linked NAOMI ca
 
 [Read Our Story](docs/development-history.md)
 
+## Known limitations in this candidate
+
+- Physical RC gameplay, display and controller combinations still need acceptance.
+- Cross-PC `0xB002` and sustained LAN reliability remain unresolved.
+- Higher-resolution damage-flash checks and the Local VS Windows firewall-dialog trigger remain open.
+- Internet Netplay, rollback, spectators and gameplay-triggered rumble are not offered features.
+
+Read [Known Issues](docs/known-issues.md) before testing. [F12 Feedback & Diagnostics](docs/feedback.md) records a local report; it does not upload anything automatically.
+
 ## Downloads & Support
 
 [Downloads & Releases](https://github.com/hyp36rmax/project-ot/releases) | [Pick Up & Play](docs/getting-started.md) | [Compatible Controllers](docs/controllers.md) | [Known Issues](docs/known-issues.md) | [Report a Problem](https://github.com/hyp36rmax/project-ot/issues) | [Credits](CREDITS.md)
 
-**PROJECT OT is being prepared for its first public release.**
+**PROJECT OT is being prepared for its first public release. The RC is not cleared for public distribution.**
 
 ---
 

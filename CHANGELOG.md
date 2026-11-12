@@ -2,6 +2,13 @@
 
 This file records documentation changes. It does not establish a downloadable software release.
 
+## Unreleased - private RC preparation - November 11, 2026
+
+- Proposed candidate-specific installation, F12, display and known-issue updates for review.
+- Retained the approved introduction and development narrative.
+- Kept screenshots awaiting recapture out of the proposal.
+- Recorded private staging and outstanding public-distribution gates; no publication.
+
 ## Unreleased — editorial integration — November 11, 2026
 
 - Imported frozen README V2.4 and Behind PROJECT OT Narrative V1.0.

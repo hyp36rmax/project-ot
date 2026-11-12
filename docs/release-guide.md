@@ -1,12 +1,12 @@
 # Release candidate readiness and installation
 
-**v0.5.0-rc.1 is a privately staged candidate, not an approved public release.** The existing ROM-free ZIP has passed its file audit, but physical and compliance gates remain open. No public download is offered by this proposal.
+**[v0.5.0-rc.1 is available as a public Release Candidate](https://github.com/hyp36rmax/project-ot/releases/tag/v0.5.0-rc.1).** The published ROM-free ZIP and matching corrected runtime source have verified identities. Physical qualification and the Experience source-scope, installation and recipient-terms review remain open; publication does not establish full compliance clearance.
 
 ## Installation and prerequisites
 
 Install the official [Microsoft .NET 10 Runtime x64](https://dotnet.microsoft.com/download/dotnet/10.0) and [Microsoft Visual C++ v14 Redistributable x64](https://aka.ms/vc14/vc_redist.x64.exe). The checked VC++ baseline is 14.51.36247.0 or later. The native host does not require the .NET SDK or Desktop Runtime. Shared Microsoft runtimes are not bundled.
 
-After an approved package is supplied, extract it into a new folder, add your legally obtained compatible archives to root `data/`, and launch `ProjectOT.exe`. Follow [Getting Started](getting-started.md).
+Extract the public RC ZIP into a new folder, add your legally obtained compatible archives to root `data/`, and launch `ProjectOT.exe`. Follow [Getting Started](getting-started.md).
 
 ## Package layout and rollback
 
@@ -20,20 +20,20 @@ Keep previous installations separate. To roll back, exit this candidate normally
 
 | Gate | Current status |
 | --- | --- |
-| RC source/version and frozen runtime hashes | Verified for the private candidate |
+| RC version and corrected runtime hashes | Verified against the public RC ZIP; see [matching hashes](../README.md#runtime-source--licensing) |
 | Focused automated qualification | Passed targeted checks; two historical configuration assertions still fail |
-| ROM/BIOS-free inventory | Verified for the existing private RC ZIP and current clean staging |
+| ROM/BIOS-free inventory | Verified for the published RC ZIP |
 | Physical RC gameplay and recovery | Pending |
 | Sustained cross-PC LAN and reported 0xB002 | Unresolved |
 | Remaining impact-flash and Windows-dialog checks | Pending |
-| Exact runtime corresponding source and complete build/install handoff | Not cleared |
-| Recipient source access | Not cleared; repositories remain private |
-| Complete third-party notices, applicable relinking material and Experience integration review | Not cleared |
+| Native-runtime source, dependencies, build materials, notices and hosted interfaces | [Published for both corrected variants](https://github.com/hyp36rmax/flycast-lean-voot/releases/tag/source-v0.5.0-rc.1-corrected) |
+| Recipient access to native-runtime source | Anonymous download and checksums verified |
+| Additional Experience source-scope, installation obligations and recipient terms | Unresolved; proposed terms remain subject to approval |
 | Public media and asset rights | Pending where not already approved |
-| Public distribution | **NO-GO** |
+| Public availability | RC download available; full compliance clearance not claimed |
 
-A passing runtime parity test or a repository link does not replace the source and licensing review. Private staging does not waive obligations to recipients. See [Legal](../LEGAL.md) and [Credits](../CREDITS.md).
+A passing runtime parity test or public native-runtime source delivery does not settle the Experience integration boundary or waive obligations to recipients. Independent bit-for-bit reproducibility has not been established. See [Legal](../LEGAL.md) and [Credits](../CREDITS.md).
 
 ## Feedback and final approval
 
-Use [F12 Feedback & Diagnostics](feedback.md) for local reports. Complete physical acceptance and all distribution gates before publication. This documentation proposal creates no GitHub Release, tag or visibility change. See the [RC release notes](release-notes-v0.5.0-rc.1.md).
+Use [F12 Feedback & Diagnostics](feedback.md) for local reports. Physical acceptance and the remaining Experience licensing decisions are still pending. These maintained documentation corrections do not change the published release description, ZIP, assets or tag. See the [RC release notes](release-notes-v0.5.0-rc.1.md).

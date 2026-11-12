@@ -13,9 +13,9 @@ Built around the original arcade release, the goal is to make *Oratorio Tangram*
 
 ## Release candidate status
 
-    `v0.5.0-rc.1` is prepared for Physical RC acceptance, corresponding-source delivery and licensing review remain open. See [release readiness](docs/release-guide.md) and [known issues](docs/known-issues.md).
+`v0.5.0-rc.1` is available as a [public Release Candidate](https://github.com/hyp36rmax/project-ot/releases/tag/v0.5.0-rc.1). Matching corrected runtime source is also public. Physical RC acceptance and the Experience source-scope and installation review remain open. See [release readiness](docs/release-guide.md) and [known issues](docs/known-issues.md).
 
-[Full RC release notes](RELEASE-NOTES-v0.5.0-rc.1.md) describe the private candidate and remaining release gates.
+[Full RC release notes](RELEASE-NOTES-v0.5.0-rc.1.md) describe the published candidate and remaining qualification and licensing limits.
 
 ## Features
 
@@ -121,7 +121,7 @@ The current candidate uses external .NET 10 Runtime x64 and Visual C++ v14 x64. 
 
 ### Pick Up & Play
 
-1. Download PROJECT OT from [GitHub Releases](https://github.com/hyp36rmax/project-ot/releases) when available.
+1. Download PROJECT OT from the [v0.5.0-rc.1 release](https://github.com/hyp36rmax/project-ot/releases/tag/v0.5.0-rc.1).
 2. Extract the complete ZIP into a new folder and follow its instructions.
 3. Put your legally obtained compatible `vonot.zip` and `naomi.zip` in the root `data/` folder.
 4. Launch `ProjectOT.exe`.
@@ -187,7 +187,19 @@ No. Players must provide their own legally obtained game and required firmware.
 
 ### Is PROJECT OT open source?
 
-The runtime is derived from Flycast and retains its applicable GPL obligations. [Flycast Lean VOOT](https://github.com/hyp36rmax/flycast-lean-voot) holds runtime engineering, performance research and source documentation. Recipient access and the exact corresponding-source handoff remain release gates. The private Experience integration is still under licensing review; repository separation does not settle that boundary.
+The corrected Flycast-derived runtime source is public; see [Runtime Source & Licensing](#runtime-source--licensing). The C# Experience source remains private. Its source-scope and installation obligations, and proposed recipient terms, remain under review; repository separation does not settle that boundary.
+
+## Runtime Source & Licensing
+
+The [matching corrected Flycast runtime source release](https://github.com/hyp36rmax/flycast-lean-voot/releases/tag/source-v0.5.0-rc.1-corrected) contains both Solo/Local and LAN variants, dependency source, build materials, copyright and license notices, and hosted protocol documentation. Download the attached `Flycast-Lean-VOOT-v0.5.0-rc.1-Corrected-Source.zip` and [checksums](https://github.com/hyp36rmax/flycast-lean-voot/releases/download/source-v0.5.0-rc.1-corrected/SHA256SUMS.txt).
+
+| Component | SHA-256 |
+| --- | --- |
+| Solo/Local runtime | `43DEE4CF0CBEC6AA731D33C765C06F8B1C29AB32BB6E75B06225E1A26FE4A022` |
+| LAN runtime | `6AE1C948213BB0A501A6192CE2082FED7804DCB198886B264E24768A47EDA713` |
+| Source bundle | `AFB826268100CEAF898A53B5BFD64314C0765778EA2065C698ECAAA0ADDF495F` |
+
+Anonymous source retrieval and checksums were verified. Independent bit-for-bit build reproducibility has not been established. The runtime and dependencies retain their applicable licenses; this documentation adds no proprietary restrictions to them. Public native-runtime source delivery does not resolve the Experience source-scope or installation obligations, approve its proposed recipient terms, or establish full compliance clearance. See [legal notes](LEGAL.md).
 
 ## Behind PROJECT OT
 
@@ -210,7 +222,7 @@ Read [Known Issues](docs/known-issues.md) before testing. [F12 Feedback & Diagno
 
 [Downloads & Releases](https://github.com/hyp36rmax/project-ot/releases) | [Pick Up & Play](docs/getting-started.md) | [Compatible Controllers](docs/controllers.md) | [Known Issues](docs/known-issues.md) | [Report a Problem](https://github.com/hyp36rmax/project-ot/issues) | [Credits](CREDITS.md)
 
-**PROJECT OT is being prepared for its first public release. The RC is not cleared for public distribution.**
+**The public RC is available. Physical qualification and the Experience licensing review remain open.**
 
 ---
 

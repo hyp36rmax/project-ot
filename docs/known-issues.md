@@ -1,6 +1,6 @@
 # Known issues in v0.5.0-rc.1
 
-The candidate is prepared privately. Physical RC acceptance, source delivery and licensing review are still open; there is no approved public download.
+The [public RC](https://github.com/hyp36rmax/project-ot/releases/tag/v0.5.0-rc.1) is available. Matching native-runtime source delivery is complete; physical RC acceptance and the Experience source-scope and installation review remain open.
 
 ## Controllers
 
@@ -32,7 +32,7 @@ Vertical expansion, Internet Netplay, rollback, spectators and gameplay-triggere
 
 ## Distribution clearance
 
-The ROM-free file audit does not establish licensing clearance. Exact corresponding source for both runtime binaries, complete dependency notices and relinking materials, recipient access, integration scope and asset rights remain release gates. See [release readiness](release-guide.md#release-gates) and [legal notes](../LEGAL.md).
+The ROM-free file audit does not establish licensing clearance. Both corrected native-runtime variants, dependency source, build materials, notices and hosted protocol documentation are [publicly delivered](../README.md#runtime-source--licensing), with anonymous access verified. Additional Experience source-scope and installation obligations, and proposed recipient terms, remain unresolved. No full compliance clearance is claimed. See [release readiness](release-guide.md#release-gates) and [legal notes](../LEGAL.md).
 
 
 The RELEASE-DAY01 source includes the approved Solo launch correction for 16:9, 21:9 and 32:9. Saved preferences and launch configuration are verified; first-frame physical rendering has not been independently retested. The maintainer approved proceeding on engineering evidence.

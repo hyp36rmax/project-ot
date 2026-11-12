@@ -19,9 +19,17 @@ Rendering Quality offers **Original 480p**, **Performance 720p**, **High 1080p**
 | 21:9 | P1 top, P2 bottom |
 | 32:9 | P1 left, P2 right |
 
-This describes the qualified borderless planner; the existing windowed fallback retains its fitted presentation. Physical RC acceptance remains open. See [Known Issues](known-issues.md#display).
+This describes the qualified borderless planner; the existing windowed fallback retains its fitted presentation. Development Single Display and Dual Display testing is established, while selected first-frame and recovery checks on the exact corrected RC remain open. See [Known Issues](known-issues.md#display).
 
 **Dual Display VS** gives each Local VS player a separate physical monitor. Assign both displays, use **Identify** to locate them and **Swap Screens** where offered to exchange player placement. Windows display duplication does not provide independent player views.
+
+## Validation History
+
+Original 4:3 and Hor+ 16:9 presentation were physically accepted during development. Single Display and Dual Display VS, independent player views and monitor placement were physically tested. Borderless/fullscreen behavior and Alt+Tab recovery were tested within the accepted configurations.
+
+DISPLAY-REG01 recorded **173 automated PASS** checks for explicit and Automatic layout equivalence. HITFX native replay recorded **295 checks PASS across 20 aspect/render-height combinations**; **68 native visual comparisons remained unchanged** in RC qualification. Replay and configuration checks do not certify live first-frame output or every physical hardware combination.
+
+The final corrected RC did not repeat the complete physical cycle. Selected saved-aspect first-frame checks, monitor/DPI/disconnect recovery and higher-resolution live HITFX coverage remain open. Physical display resolution, internal render height and selected aspect ratio are separate values; the replay matrix is not a claim that every combination is exposed by the product. See [validation history](validation-history.md).
 
 ## Save and recover
 

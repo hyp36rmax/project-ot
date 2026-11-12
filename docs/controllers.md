@@ -4,6 +4,19 @@ Open **Settings → Controllers**. Choose **Gamepad** for Xbox, compatible PlayS
 
 Arcade profiles include **HORI Twin Stick EX**, **Tanita**, **Custom / Brook**, **Raphnet Dreamcast v1** and **Raphnet Saturn v2**. HORI has one visible selection. Use the matching adapter/profile and check your hardware in Test Controls; see [Known Issues](known-issues.md#controllers) for variant coverage.
 
+## Physically Tested Configurations
+
+Development acceptance includes:
+
+- Xbox dual-analog Solo gameplay: **10/10 physical PASS**.
+- Xbox P1 / HORI Twin-Stick EX P2 Local VS with independent linked gameplay.
+- Tanita Twin-Stick P1 / HORI Twin-Stick EX P2 Local VS.
+- LAN controller ownership and focus: **9/9 physical PASS**.
+
+The controller-module integration regression recorded **101/101 automated PASS** across Coordinator, presentation, controller and shell checks. This is a combined integration total, not 101 controller-only unit tests or physical hardware cases.
+
+These are accepted development configurations, not a complete repeat on the final corrected RC. Other PlayStation, Brook, Raphnet and hardware/adapter revisions are available profiles rather than blanket physical certifications. Specific reconnection, reassignment and identity-recovery cases remain open; see [validation history](validation-history.md).
+
 ## Assign a player
 
 1. Connect from Title or Controllers. On Controllers, select Player 1 or Player 2 first.

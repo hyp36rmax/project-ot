@@ -8,7 +8,7 @@ The current package requires [Microsoft .NET 10 Runtime x64](https://dotnet.micr
 
 ## Download, set up and play
 
-The current public Release Candidate is `v0.5.0-rc.1`. Physical qualification and the Experience licensing review remain open; see [Known Issues](known-issues.md) and [Runtime Source & Licensing](../README.md#runtime-source--licensing).
+The current public Release Candidate is `v0.5.0-rc.1`. Solo, Local VS and LAN VS have accepted physical development testing; the complete physical cycle was not repeated on the final corrected RC. See [validation history](validation-history.md), [Known Issues](known-issues.md) and [Runtime Source & Licensing](../README.md#runtime-source--licensing) for remaining hardware/recovery and licensing limits.
 
 1. Download the package from the [v0.5.0-rc.1 release](https://github.com/hyp36rmax/project-ot/releases/tag/v0.5.0-rc.1) and follow its extraction instructions.
 2. Put your compatible, legally obtained `vonot.zip` and `naomi.zip` in the root `data/` directory beside `ProjectOT.exe`. No game or firmware is supplied. Do not put archives in either runtime directory; this candidate does not require separate `jvs13551.zip` or `mie.zip` files.

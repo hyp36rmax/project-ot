@@ -4,7 +4,7 @@
 
 Our first Release Candidate brings the original NAOMI 5.66 experience to modern Windows hardware through our customized Flycast Lean runtime and Project OT Experience framework.
 
-**[v0.5.0-rc.1 is available as a public Release Candidate](https://github.com/hyp36rmax/project-ot/releases/tag/v0.5.0-rc.1).** Matching corrected native-runtime source has been published and its anonymous retrieval verified. Experience source-scope and installation obligations, proposed recipient terms and physical qualification remain open; availability is not a claim of full compliance clearance.
+**[v0.5.0-rc.1 is available as a public Release Candidate](https://github.com/hyp36rmax/project-ot/releases/tag/v0.5.0-rc.1).** Core gameplay has extensive accepted physical development testing. Matching corrected native-runtime source is public, with anonymous retrieval verified. The complete physical cycle was not repeated on the exact final corrected RC. Experience source-scope, installation obligations and proposed recipient terms remain separate open decisions; availability is not a claim of full compliance clearance.
 
 ## What's included
 
@@ -24,7 +24,7 @@ Our first Release Candidate brings the original NAOMI 5.66 experience to modern 
 
 - Linked gameplay across two Windows systems using the retained LAN implementation.
 - Match Board discovery, challenge, acceptance and readiness, plus Direct Connect configuration.
-- The existing LAN runtime and transport remain unchanged. Sustained cross-PC reliability and the reported `NETWORK ERROR` / `0xB002` remain unresolved; a successful discovery or Ready state is not a completed-match reliability qualification.
+- The existing LAN implementation has completed physical Ethernet/Wi-Fi cross-PC matches and extended sessions. Intermittent `NETWORK ERROR` / `0xB002`, a previously observed Wi-Fi dropout and selected role/recovery cases remain open; this RC does not claim a networking fix or universal reliability.
 
 Wired Ethernet is recommended. Discovery depends on Windows, adapters and router settings. Internet NETPLAY VS, rollback and spectators are not offered features.
 
@@ -71,19 +71,33 @@ No ROM or BIOS archives are included. Shared .NET and app-local VC++ runtime DLL
 
 See [Getting Started](docs/getting-started.md), [Controllers](docs/controllers.md), [Display](docs/display.md) and [Audio](docs/audio.md) for the existing candidate guidance.
 
+## Completed development validation
+
+- Consolidated gameplay UAT: **38/38 PASS**, including accepted Solo, linked Local VS and cross-PC LAN VS gameplay.
+- Four recorded extended physical endurance sessions exceeding 60 minutes each.
+- Xbox dual-analog Solo: **10/10 physical PASS**; Xbox P1 / HORI Twin-Stick EX P2 and Tanita P1 / HORI Twin-Stick EX P2 Local VS physically verified.
+- LAN controller ownership and focus: **9/9 physical PASS**.
+- Original 4:3, Hor+ 16:9, Single Display and Dual Display VS, independent monitor placement, borderless/fullscreen behavior and scoped Alt+Tab testing.
+- Automatic station discovery across **seven different PC setups**. This is discovery coverage across development, not seven simultaneous PCs or every gameplay test on all seven.
+- Multiple completed cross-PC matches over Ethernet and Wi-Fi, extended linked sessions, and Match Board discovery/challenge/acceptance/readiness.
+
+Engineering evidence includes the 101/101 combined controller-integration regression, 173 display checks, 295 native HITFX replay checks across 20 aspect/render-height targets, and 68 unchanged native visual comparisons. Qualified RC source recorded 1,189 reported passing checks; the initial private RC package passed 466 focused checks. Corrected CDI-excluded runtime builds and focused checks passed. These are stage-specific results, not a new aggregate or physical test count. See [validation history and evidence scope](docs/validation-history.md).
+
 ## Release Candidate notes
 
-This is an initial Release Candidate. Some hardware combinations, display configurations and network environments require additional validation. **Physical RC UAT is deferred by maintainer decision; it is not recorded as passed.**
+This is an initial Release Candidate with accepted development gameplay history. Some hardware combinations, display configurations and recovery paths require additional validation. **The complete physical UAT was not repeated on the exact final CDI-corrected public ZIP.** Historical acceptance is retained without treating it as that additional cycle.
+
+### Remaining RC qualification
 
 Known limitations retained from the qualified reports:
 
-- Sustained cross-PC gameplay, completed-match reliability and the reported LAN `0xB002` remain open.
-- Physical first-frame aspect checks, controller reconnection/return-to-Title combinations, monitor/DPI recovery and Alt+Tab still need qualification. The earlier Solo-to-Title navigation report was not reproduced on a recorded physical retest; these notes do not claim a new input correction.
+- Intermittent LAN `0xB002`, a previously observed Wi-Fi dropout, reversed-role tests and repeated failure/reconnect recovery remain open. The accepted Ethernet session that ended intentionally is not classified as a confirmed transport failure.
+- Selected final-RC first-frame aspect checks, controller reconnection/reassignment/return-to-Title combinations, monitor/DPI recovery and additional Alt+Tab cases remain open. Earlier accepted gameplay, display and Alt+Tab tests are retained. The earlier Solo-to-Title navigation report was not reproduced on a recorded physical retest; these notes do not claim a new input correction.
 - Horizontal damage-flash coverage at higher render heights still has remaining physical checks.
 - Named Audio endpoint and Separate Audio settings do not qualify independent live-cabinet routing. Audible RC routing checks remain deferred.
 - Actual Windows security prompt timing, authorization reuse and denial recovery remain unqualified; the reported Local VS firewall-dialog trigger is unresolved. Never disable protection or create broad exceptions as a workaround.
-- Linked gameplay may continue behind the Experience menu. Physical cleanup and device/display recovery combinations remain under qualification.
-- Long endurance, monitor sleep/disconnect and power-loss testing remain later qualification.
+- Linked gameplay may continue behind the Experience menu. Selected final-RC cleanup and device/display recovery combinations remain under qualification; prior session-lifecycle acceptance is retained.
+- Separate 12-hour Solo/Local VS, monitor sleep/disconnect and sudden-power-loss targets remain future qualification, distinct from the four accepted hour-plus endurance sessions.
 
 These are recorded limitations and deferred checks, not newly reproduced defects or new physical PASS results. See [Known Issues](docs/known-issues.md). Optional enhancements remain deferred.
 

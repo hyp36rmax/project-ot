@@ -6,7 +6,15 @@ Use matching PROJECT OT packages and authorized game/firmware data on both stati
 
 ## Candidate qualification
 
-Discovery, compatibility, challenge and readiness are implemented. A reported `NETWORK ERROR` / `0xB002` and sustained cross-PC gameplay remain unresolved for the candidate. Do not infer match reliability from a successful discovery or Ready state.
+### Physically Validated LAN Gameplay
+
+PROJECT OT's LAN implementation has been physically tested across seven different PC setups for station discovery. Multiple cross-PC matches were completed over Ethernet and Wi-Fi, including extended gameplay sessions.
+
+Automatic discovery, Match Board challenge/acceptance/readiness, and LAN controller ownership/focus were physically exercised; the controller/focus acceptance was **9/9 physical PASS**. Seven is the corrected count of different discovery setups, not simultaneously connected PCs, every possible pair/role assignment, or a claim that each setup completed every gameplay test.
+
+An intermittent `NETWORK ERROR` / `0xB002`, a previously observed Wi-Fi dropout, reversed-role testing and repeated reconnect/failure recovery remain open. Wired Ethernet is recommended. The accepted Ethernet session that ended intentionally was not a confirmed transport failure. Windows authorization and adapter/router-dependent discovery still matter.
+
+This development history is retained; it is not a repeated full physical cycle on the exact final corrected RC or a promise of universal reliability. See [validation history](validation-history.md).
 
 ## Match Board
 
@@ -29,4 +37,4 @@ For an empty board or inconsistent wireless connection, follow [Troubleshooting]
 
 ![LAN VS Match Board showing three available stations and Direct Connect](../assets/screenshots/lan-vs.png)
 
-The Match Board shows available stations and the Direct Connect action. Discovery visibility is not proof of completed matches, sustained LAN reliability or public internet matchmaking.
+The Match Board capture shows three available stations and Direct Connect. That image does not limit the separate seven-setup discovery history or represent seven simultaneous PCs. Physical LAN matches are documented above; Internet NETPLAY VS remains unavailable.

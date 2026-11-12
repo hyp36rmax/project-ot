@@ -23,3 +23,7 @@ Arcade Cabinet Mode is a validated feature for dedicated setups, with two persis
 The Experience menu does not guarantee synchronized pause; linked gameplay can continue. Use Resume to return, or confirm Return to Title to end the paired session. Wait for Title before starting another mode, then confirm Exit when finished.
 
 See [Known Issues](known-issues.md) for configuration-specific limits.
+
+![Local VS combat with independent P1 top and P2 bottom views](../assets/screenshots/local-vs.png)
+
+Captured linked combat with independent P1 and P2 views stacked on one display. See Display for the aspect-dependent arrangement.

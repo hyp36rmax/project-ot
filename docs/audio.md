@@ -23,3 +23,7 @@ Choose an enabled left or right test and listen for the expected physical speake
 Valid changes save automatically for each mode; wait for the saved status. An unavailable saved output falls back to System Default. Recheck it after reconnecting devices. Use Restore Defaults for the current Audio settings when offered. Keep any load/save error message rather than deleting the configuration directory.
 
 See [Troubleshooting](troubleshooting.md) for silent output.
+
+![Audio Settings showing Solo volume at 100% and Mute Off](../assets/screenshots/audio-settings.png)
+
+Solo Audio Settings at 100% Master Volume with Mute Off. Speaker tests and endpoint configuration are separate from live gameplay-routing qualification.

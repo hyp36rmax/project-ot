@@ -129,9 +129,21 @@ The current candidate uses external .NET 10 Runtime x64 and Visual C++ v14 x64. 
 
 ## Screenshots & Gameplay
 
-Authentic gameplay, controller configuration, display settings, Title Menu and LAN Match Board screenshots will be featured here.
+User-supplied captures of the Project OT Experience. Screenshots illustrate the interface and captured gameplay; they do not establish additional hardware acceptance or sustained LAN reliability.
 
-All captures will use the actual PROJECT OT Experience, with 1920×1080 as the primary presentation and expanded aspect ratios where appropriate.
+![Project OT Title menu with Solo, Multiplayer, Settings and Exit](assets/screenshots/title-menu.png)
+
+**Title Menu** — the Project OT entry point.
+
+![Local VS combat with independent player views stacked on one display](assets/screenshots/local-vs.png)
+
+**Local VS** — linked two-player gameplay, with P1 above P2 in this capture.
+
+![Multiplayer menu with Local VS, Link Play and Back](assets/screenshots/multiplayer.png)
+
+**Multiplayer** — navigation to local and linked play. Internet NETPLAY VS remains unavailable.
+
+See the [player guides](docs/README.md) for Settings, Link Play and Match Board captures.
 
 ## Frequently Asked Questions
 

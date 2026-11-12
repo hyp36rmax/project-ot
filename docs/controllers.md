@@ -26,3 +26,7 @@ A short gameplay Start press is the arcade Start input; the longer menu gesture 
 ## Returning to Title
 
 An earlier controller-navigation report after Solo was not reproduced on physical retest. The RC preserves existing routing. If it recurs, use keyboard or mouse to open [F12 Feedback](feedback.md), and record the player assignments and claim order. Clicking or reconnecting is not an accepted correction.
+
+![Controller Settings with a Tanita Twin-Stick assigned to Player 1](../assets/screenshots/controller-settings.png)
+
+Controller Settings in this capture shows a Tanita profile assigned to P1. This is not certification of every listed device or adapter.

@@ -8,8 +8,11 @@ Start with [Getting Started](getting-started.md), then set up your controller, d
 2. [Controllers](controllers.md): gamepads, arcade Twin-Sticks, player assignment and Test Controls.
 3. [Display](display.md): aspect ratio, rendering quality and single or dual displays.
 4. [Audio](audio.md): output preferences, volume, mute and speaker tests.
+5. [Gameplay](gameplay.md): the Arcade Cabinet Mode settings interface.
 
 ## Choose how to play
+
+Use the [Multiplayer menu](multiplayer.md) for Local VS and [Link Play](link-play.md) for the LAN VS menu. NETPLAY VS remains unavailable.
 
 [Solo](solo.md) runs the original arcade game for one player. [Local VS](local-vs.md) brings two independent players together on one PC, using one monitor or two physical displays. It also explains Arcade Cabinet Mode for dedicated setups. [LAN VS](lan-vs.md) connects stations over Ethernet or Wi-Fi.
 

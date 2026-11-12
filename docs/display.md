@@ -28,3 +28,7 @@ This describes the qualified borderless planner; the existing windowed fallback 
 Solo and Local VS keep separate preferences. Edits save automatically; changes needing confirmation show **Keep/Revert** for 15 seconds. Keep saves the plan; Revert or timeout restores the previous plan. Start a new session to use saved launch changes—confirmation does not move a running game.
 
 Check the fallback arrangement if a saved monitor is missing. Return to Title before changing cables or desktop topology. If recovery fails, retain the message and use [Troubleshooting](troubleshooting.md); do not delete all preferences.
+
+![Display Settings showing Solo, 16:9 and Ultra 1440p](../assets/screenshots/display-settings.png)
+
+Solo Display Settings with 16:9, Ultra 1440p and Borderless Windowed selected. The configuration view does not establish the runtime presentation or physical acceptance.

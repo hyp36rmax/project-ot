@@ -26,3 +26,7 @@ If discovery misses the other station, use Direct Connect where available. One P
 Linked gameplay can continue while the Experience menu is open. Confirm **Return to Title** to stop the match; the Match Board workflow returns there after cleanup. Use Back to leave the board, then confirm Exit at Title.
 
 For an empty board or inconsistent wireless connection, follow [Troubleshooting](troubleshooting.md#lan-stations-cannot-connect). Direct Connect does not bypass compatibility or Windows permissions. See [Windows network access](network-access.md). Current package limits are in [Known Issues](known-issues.md#lan-vs).
+
+![LAN VS Match Board showing three available stations and Direct Connect](../assets/screenshots/lan-vs.png)
+
+The Match Board shows available stations and the Direct Connect action. Discovery visibility is not proof of completed matches, sustained LAN reliability or public internet matchmaking.

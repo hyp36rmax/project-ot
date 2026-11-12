@@ -2,6 +2,8 @@
 
 Private release candidate prepared for review. **Not cleared for public distribution.**
 
+[Full candidate release notes](../RELEASE-NOTES-v0.5.0-rc.1.md) include feature scope, installation, feedback and the current publication gates.
+
 ## What is in the candidate
 
 - The established Title, Pause, Settings and Multiplayer presentation.

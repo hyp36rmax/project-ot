@@ -18,6 +18,8 @@ Use the [Multiplayer menu](multiplayer.md) for Local VS and [Link Play](link-pla
 
 Each guide explains how to start and leave a session. If something goes wrong, use [Troubleshooting](troubleshooting.md) and [Known Issues](known-issues.md). The [public RC](https://github.com/hyp36rmax/project-ot/releases/tag/v0.5.0-rc.1) and [matching runtime source](../README.md#runtime-source--licensing) are available. Follow the [release guide](release-guide.md) for layout and remaining qualification and licensing limits.
 
+[Validation history](validation-history.md) records completed physical Solo, Local VS and LAN VS testing, controller/display acceptance and seven different LAN-discovery setups. It separates those development results from specific checks not repeated on the final corrected RC.
+
 ## Behind PROJECT OT
 
 Interested in the motivation, discoveries and development journey? Read [Behind PROJECT OT](development-history.md). The story is separate from the setup instructions, so you can get playing without reading the technical history.

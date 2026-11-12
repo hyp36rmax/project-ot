@@ -13,7 +13,11 @@ Built around the original arcade release, the goal is to make *Oratorio Tangram*
 
 ## Release candidate status
 
-`v0.5.0-rc.1` is available as a [public Release Candidate](https://github.com/hyp36rmax/project-ot/releases/tag/v0.5.0-rc.1). Matching corrected runtime source is also public. Physical RC acceptance and the Experience source-scope and installation review remain open. See [release readiness](docs/release-guide.md) and [known issues](docs/known-issues.md).
+`v0.5.0-rc.1` is available as a [public Release Candidate](https://github.com/hyp36rmax/project-ot/releases/tag/v0.5.0-rc.1). Matching corrected runtime source is also public.
+
+Core Solo, linked Local VS and cross-PC LAN VS gameplay were extensively physically validated during development: **38/38 consolidated gameplay UAT PASS**, four recorded physical endurance sessions exceeding 60 minutes, and controller/display acceptance within the tested configurations.
+
+The exact final corrected RC did not undergo an additional complete physical UAT cycle. Selected recovery and hardware edge cases remain open, separately from the Experience source-scope and installation review. See [validation history](docs/validation-history.md), [release readiness](docs/release-guide.md) and [known issues](docs/known-issues.md).
 
 [Full RC release notes](RELEASE-NOTES-v0.5.0-rc.1.md) describe the published candidate and remaining qualification and licensing limits.
 
@@ -41,7 +45,7 @@ Mix compatible controllers in Local VS. One player can use a gamepad while the o
 
 Controller assignment, button mapping, analog calibration and input testing are managed directly within PROJECT OT.
 
-The table lists available layouts and profiles, not certification of every controller or adapter revision. Check the guide for setup and qualification limits.
+Physically tested configurations include Xbox dual-analog Solo, Xbox P1 / HORI Twin-Stick EX P2 Local VS, and Tanita Twin-Stick P1 / HORI Twin-Stick EX P2 Local VS. The table lists available layouts and profiles, not certification of every PlayStation, Brook, Raphnet, controller or adapter revision. Check the guide for the accepted scope and remaining recovery cases.
 
 [Controller Setup](docs/controllers.md)
 
@@ -75,9 +79,11 @@ Connect PROJECT OT stations across your local network.
 
 The Match Board lets players discover available stations, challenge opponents, accept matches and confirm readiness. Direct Connect provides an alternative when automatic discovery is unavailable.
 
-**Wired Ethernet is recommended.** Wi-Fi is also supported, although station discovery can vary depending on Windows, wireless adapter capabilities and router settings.
+LAN VS was physically validated through multiple completed cross-PC matches, Ethernet and Wi-Fi gameplay, extended sessions, and automatic station discovery across seven different PC setups.
 
-Sustained cross-PC gameplay remains under qualification. A reported `NETWORK ERROR` / `0xB002` is unresolved; this RC does not claim a networking fix.
+An intermittent NETWORK ERROR / 0xB002 and selected reconnect/recovery scenarios remain under investigation. Wired Ethernet is recommended.
+
+Seven describes discovery setups used across development, not simultaneous players or every test on every setup. Discovery can still vary with Windows, adapters and router settings.
 
 [LAN VS Guide](docs/lan-vs.md)
 
@@ -95,6 +101,8 @@ Enjoy the original arcade presentation or expand the horizontal field of view wi
 Rendering quality includes Original 480p, Performance 720p, High 1080p, Ultra 1440p and 4K 2160p.
 
 Our dedicated runtime introduces improvements to rendering, projection and object visibility, allowing the original game world to expand horizontally rather than stretching the original 4:3 picture.
+
+Original 4:3 and Hor+ 16:9 presentation were physically accepted, with Single Display and Dual Display VS, independent player monitor placement and borderless/fullscreen testing. Selected final-RC first-frame, high-resolution HITFX and monitor-recovery checks remain distinct.
 
 [Display Settings](docs/display.md)
 
@@ -179,7 +187,7 @@ Yes. PROJECT OT supports original 4:3 presentation and expanded 16:9, 21:9 and 3
 
 ### Can I play over Wi-Fi?
 
-Ethernet and Wi-Fi discovery paths are implemented. Wired Ethernet is recommended, but sustained cross-PC reliability remains unqualified for this RC. See the [LAN guide](docs/lan-vs.md) and [known issues](docs/known-issues.md#lan-vs).
+Yes. Completed development matches and extended sessions included Ethernet and Wi-Fi. Wired Ethernet is recommended; a previously observed Wi-Fi dropout, intermittent `0xB002` and selected recovery cases remain open. See the [LAN guide](docs/lan-vs.md) and [known issues](docs/known-issues.md#lan-vs).
 
 ### Does PROJECT OT include the original game?
 
@@ -211,8 +219,8 @@ From modern Twin-Stick support and expanded displays to bringing linked NAOMI ca
 
 ## Known limitations in this candidate
 
-- Physical RC gameplay, display and controller combinations still need acceptance.
-- Cross-PC `0xB002` and sustained LAN reliability remain unresolved.
+- The exact final corrected RC full physical retest was not repeated; selected controller reconnection/reassignment, first-frame display and recovery checks remain open.
+- Intermittent cross-PC `0xB002`, a previously observed Wi-Fi dropout and selected role-reversal/recovery cases remain unresolved.
 - Higher-resolution damage-flash checks and the Local VS Windows firewall-dialog trigger remain open.
 - Internet Netplay, rollback, spectators and gameplay-triggered rumble are not offered features.
 
@@ -222,7 +230,7 @@ Read [Known Issues](docs/known-issues.md) before testing. [F12 Feedback & Diagno
 
 [Downloads & Releases](https://github.com/hyp36rmax/project-ot/releases) | [Pick Up & Play](docs/getting-started.md) | [Compatible Controllers](docs/controllers.md) | [Known Issues](docs/known-issues.md) | [Report a Problem](https://github.com/hyp36rmax/project-ot/issues) | [Credits](CREDITS.md)
 
-**The public RC is available. Physical qualification and the Experience licensing review remain open.**
+**The public RC is available. Development gameplay acceptance is established; additional final-RC recovery coverage and the Experience licensing review remain open.**
 
 ---
 

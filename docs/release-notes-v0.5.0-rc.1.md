@@ -22,7 +22,11 @@ Read [Getting Started](getting-started.md) and [the package guide](release-guide
 
 ## Known issues and approval
 
-Sustained LAN and the reported 0xB002 remain unresolved. Remaining impact-flash, Windows-dialog and physical RC checks are open. The earlier Solo-to-Title navigation report was not reproduced on physical retest. Native-runtime source delivery and anonymous recipient access are verified; additional Experience source-scope, installation obligations and proposed recipient terms remain under review. No full compliance clearance is claimed.
+Development physical validation includes Solo, linked Local VS and LAN VS, **38/38 consolidated UAT PASS**, four endurance sessions exceeding 60 minutes, tested Xbox/HORI/Tanita combinations, and accepted display configurations. LAN discovery was tested across **seven different PC setups**, with completed Ethernet/Wi-Fi matches and extended gameplay; this does not mean seven simultaneous PCs or every test on each setup.
+
+The exact final corrected RC did not repeat the complete physical cycle. Intermittent `0xB002`, a previously observed Wi-Fi dropout, selected role-reversal/recovery and controller reconnect/reassignment cases, first-frame/monitor recovery, higher-resolution live HITFX and Windows-dialog checks remain open. The earlier Solo-to-Title navigation report was not reproduced on physical retest. See [validation history](validation-history.md) for physical versus automated scope and the retained historical configuration results.
+
+Native-runtime source delivery and anonymous recipient access are verified; additional Experience source-scope, installation obligations and proposed recipient terms remain under review. No full compliance clearance is claimed.
 
 See [Runtime Source & Licensing](../README.md#runtime-source--licensing) for the direct corrected-source release and matching hashes.
 

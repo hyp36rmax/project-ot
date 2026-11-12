@@ -2,6 +2,13 @@
 
 This file records documentation changes. It does not establish a downloadable software release.
 
+## Physical validation history reconciliation — November 12, 2026
+
+- Recognized accepted Solo, Local VS and LAN VS development gameplay, 38/38 consolidated UAT, four hour-plus endurance sessions, and tested controller/display configurations.
+- Corrected LAN discovery scope to seven different PC setups, with completed Ethernet/Wi-Fi matches and extended sessions; no simultaneous-seven-PC or universal-reliability claim.
+- Separated final corrected-RC recovery/first-frame/HITFX checks from historical acceptance, and retained older configuration failures as historical results without inventing a fix.
+- Documentation only; no gameplay tests, source changes, release modifications or new acceptance claims for the exact final corrected ZIP.
+
 ## Documentation correction — November 12, 2026
 
 - Linked the public v0.5.0-rc.1 RC and its matching corrected native-runtime source, build materials, dependencies, notices and hosted protocol documentation.
@@ -52,4 +59,4 @@ This file records documentation changes. It does not establish a downloadable so
 - Added issue forms for general bugs, controllers, displays and LAN problems.
 - Reserved the development-history narrative for its approved source text.
 
-The current public software candidate is `v0.5.0-rc.1`; earlier entries describe its documentation history. Matching native-runtime source delivery is public. Physical qualification and the Experience source-scope, installation and recipient-terms review remain open. Future software entries must identify the actual version, date, changes and known limitations of the offered package. See the [release guide](docs/release-guide.md).
+The current public software candidate is `v0.5.0-rc.1`; earlier entries describe its documentation history. Matching native-runtime source delivery is public. Development physical gameplay acceptance is established; additional final-RC recovery/hardware checks and the Experience source-scope, installation and recipient-terms review remain open. Future software entries must identify the actual version, date, changes and known limitations of the offered package. See the [release guide](docs/release-guide.md).

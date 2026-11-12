@@ -2,6 +2,12 @@
 
 This file records documentation changes. It does not establish a downloadable software release.
 
+## Unreleased — RC release-note preparation — November 11, 2026
+
+- Prepared full v0.5.0-rc.1 notes, exact unchanged package inventory and local GitHub Release content.
+- Retained approved branding, screenshots, narrative, source-access gates and deferred physical UAT.
+- No Release, tag, package attachment or public publication.
+
 ## Unreleased - private RC preparation - November 11, 2026
 
 - Proposed candidate-specific installation, F12, display and known-issue updates for review.
@@ -39,4 +45,4 @@ This file records documentation changes. It does not establish a downloadable so
 - Added issue forms for general bugs, controllers, displays and LAN problems.
 - Reserved the development-history narrative for its approved source text.
 
-The software baseline remains `v0.5.0-dev`. Final package contents, installation instructions, hardware qualification, release notes and distribution approval remain open. Future software entries must identify the actual version, date, changes and known limitations of the offered package. See the [release guide](docs/release-guide.md).
+The current privately prepared software candidate is `v0.5.0-rc.1`; earlier entries describe its documentation history. Final package contents, installation instructions, hardware qualification, release notes and distribution approval remain open. Future software entries must identify the actual version, date, changes and known limitations of the offered package. See the [release guide](docs/release-guide.md).

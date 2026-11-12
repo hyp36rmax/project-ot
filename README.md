@@ -15,6 +15,8 @@ Built around the original arcade release, the goal is to make *Oratorio Tangram*
 
 `v0.5.0-rc.1` is prepared for private review. **There is no approved public download yet.** Physical RC acceptance, corresponding-source delivery and licensing review remain open. See [release readiness](docs/release-guide.md) and [known issues](docs/known-issues.md).
 
+[Full RC release notes](RELEASE-NOTES-v0.5.0-rc.1.md) describe the private candidate and remaining release gates.
+
 ## Features
 
 ### Original Arcade Experience
